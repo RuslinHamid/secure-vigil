@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-03-24T21:00:57.307530",
+  "file_path": "uploads/upload_1742830240.js",
+  "language": "javascript",
+  "vulnerabilities": [],
+  "quality_metrics": {
+    "timestamp": "2025-03-24T21:00:57.307586",
+    "language": "javascript",
+    "metrics": {
+      "complexity": 2,
+      "maintainability": 0.9882352941176471,
+      "test_coverage": 0.0,
+      "security_score": 100
+    },
+    "recommendations": [
+      "Increase test coverage to improve code reliability"
+    ]
+  },
+  "security_score": 100,
+  "recommendations": []
+}

@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-03-24T21:00:27.756106",
+  "file_path": "uploads/upload_1742830205.java",
+  "language": "java",
+  "vulnerabilities": [],
+  "quality_metrics": {
+    "timestamp": "2025-03-24T21:00:27.756112",
+    "language": "java",
+    "metrics": {},
+    "recommendations": [
+      "Increase test coverage to improve code reliability"
+    ]
+  },
+  "security_score": 100,
+  "recommendations": []
+}

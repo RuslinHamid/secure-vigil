@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-03-24T22:19:11.937463",
+  "file_path": "uploads/upload_1742834926.php",
+  "language": "php",
+  "vulnerabilities": [
+    {
+      "type": "eval_usage",
+      "line_number": 212,
+      "severity": "High",
+      "description": "Potential security vulnerability: eval_usage"
+    }
+  ],
+  "quality_metrics": {
+    "timestamp": "2025-03-24T22:19:11.937542",
+    "language": "php",
+    "metrics": {
+      "complexity": 8,
+      "maintainability": 0.9655172413793104,
+      "test_coverage": 0.0,
+      "security_score": 80.0
+    },
+    "recommendations": [
+      "Increase test coverage to improve code reliability"
+    ]
+  },
+  "security_score": 80.0,
+  "recommendations": []
+}

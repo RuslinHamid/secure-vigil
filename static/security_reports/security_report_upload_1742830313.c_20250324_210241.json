@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-03-24T21:02:41.759366",
+  "file_path": "uploads/upload_1742830313.c",
+  "language": "c",
+  "vulnerabilities": [],
+  "quality_metrics": {
+    "timestamp": "2025-03-24T21:02:41.759372",
+    "language": "c",
+    "metrics": {},
+    "recommendations": [
+      "Increase test coverage to improve code reliability"
+    ]
+  },
+  "security_score": 100,
+  "recommendations": []
+}

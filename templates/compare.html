@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Comparison - Secure Vigil</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Monaco Editor -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.36.1/min/vs/loader.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+            font-family: 'Courier New', Courier, monospace;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #matrixCanvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.1;
+        }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.9);
+            border-bottom: 2px solid #00ff00;
+            box-shadow: 0 2px 10px rgba(0, 255, 0, 0.2);
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: #00ff00;
+            text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+            transition: all 0.3s ease;
+        }
+
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: #fff;
+            text-shadow: 0 0 10px #00ff00;
+        }
+
+        .comparison-container {
+            padding: 20px;
+            margin-top: 20px;
+            flex: 1;
+            z-index: 1;
+        }
+
+        .editor-container {
+            background-color: rgba(0, 0, 0, 0.9);
+            border: 2px solid #00ff00;
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            box-shadow: 0 0 30px rgba(0, 255, 0, 0.1);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .editor-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 255, 0, 0.1), transparent);
+            transition: 0.5s;
+        }
+
+        .editor-container:hover::before {
+            left: 100%;
+        }
+
+        .editor-header {
+            background-color: rgba(0, 0, 0, 0.8);
+            border: 1px solid #00ff00;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .editor-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #00ff00;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 0;
+            animation: glow 2s infinite alternate;
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+            }
+            to {
+                text-shadow: 0 0 15px rgba(0, 255, 0, 0.8);
+            }
+        }
+
+        .btn-copy {
+            background-color: transparent;
+            border: 2px solid #00ff00;
+            color: #00ff00;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-copy::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 255, 0, 0.2), transparent);
+            transition: 0.5s;
+        }
+
+        .btn-copy:hover::before {
+            left: 100%;
+        }
+
+        .btn-copy:hover {
+            background-color: rgba(0, 255, 0, 0.2);
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .vulnerability-marker {
+            background-color: rgba(255, 0, 0, 0.2);
+            border-left: 3px solid #ff0000;
+            position: relative;
+        }
+
+        .vulnerability-marker::after {
+            content: '⚠️';
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+
+        .editor-actions {
+            display: flex;
+            gap: 1rem;
+            margin: 1rem 0;
+            justify-content: flex-end;
+        }
+
+        .btn-action {
+            background-color: transparent;
+            border: 2px solid #00ff00;
+            color: #00ff00;
+            padding: 0.75rem 1.5rem;
+            border-radius: 25px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-action::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 255, 0, 0.2), transparent);
+            transition: 0.5s;
+        }
+
+        .btn-action:hover::before {
+            left: 100%;
+        }
+
+        .btn-action:hover {
+            background-color: rgba(0, 255, 0, 0.2);
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .comparison-header {
+            text-align: center;
+            margin: 2rem 0;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .comparison-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            animation: glow 2s infinite alternate;
+        }
+
+        .comparison-subtitle {
+            font-size: 1.2rem;
+            color: rgba(0, 255, 0, 0.8);
+            margin-bottom: 2rem;
+        }
+
+        .loading-bar {
+            height: 3px;
+            background: linear-gradient(90deg, #00ff00, #00aa00);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            transform-origin: 0%;
+            animation: loading 2s ease-in-out infinite;
+        }
+
+        @keyframes loading {
+            0% { transform: scaleX(0); }
+            50% { transform: scaleX(0.5); }
+            100% { transform: scaleX(1); }
+        }
+
+        .alert {
+            background-color: rgba(0, 0, 0, 0.8);
+            border: 1px solid #00ff00;
+            color: #00ff00;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            background-color: rgba(0, 0, 0, 0.95);
+            border-top: 2px solid #00ff00;
+            text-align: center;
+        }
+
+        .vulnerability-list {
+            background-color: rgba(0, 0, 0, 0.8);
+            border: 1px solid #00ff00;
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 20px;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.2);
+        }
+
+        .btn-primary {
+            background-color: #004400;
+            border-color: #006600;
+            color: #00ff00;
+            text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #006600;
+            border-color: #008800;
+            color: #00ff00;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+        }
+
+        .diff-highlight {
+            background-color: rgba(255, 255, 0, 0.15);
+        }
+
+        .actions-bar {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.8);
+            border: 1px solid #00ff00;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.2);
+        }
+
+        .list-group-item {
+            background-color: #2d2d2d;
+            border: 1px solid #3d3d3d;
+            color: #e0e0e0;
+            margin-bottom: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .list-group-item:hover {
+            background-color: rgba(0, 255, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+        }
+
+        .list-group-item-success {
+            background-color: #1e3b1e;
+            color: #00ff00;
+            border-color: #2d4d2d;
+        }
+
+        .list-group-item-warning {
+            background-color: #3b331e;
+            color: #ffd700;
+            border-color: #4d432d;
+        }
+
+        h2, h4, h5, h6 {
+            text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+        }
+
+        .loading-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+        }
+
+        .loading-bar::after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 0%;
+            height: 100%;
+            background-color: #00ff00;
+            animation: loading 2s ease-in-out infinite;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+        }
+
+        @keyframes loading {
+            0% { width: 0; }
+            50% { width: 100%; }
+            100% { width: 0; }
+        }
+
+        .typing-effect {
+            overflow: hidden;
+            white-space: nowrap;
+            margin: 0 auto;
+            animation: typing 3.5s steps(40, end);
+        }
+
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+
+        .editor-transition {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.5s forwards;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .vulnerability-item {
+            opacity: 0;
+            animation: fadeIn 0.5s forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        .btn-glow {
+            animation: glow 1.5s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from {
+                box-shadow: 0 0 5px rgba(0, 255, 0, 0.2);
+            }
+            to {
+                box-shadow: 0 0 20px rgba(0, 255, 0, 0.4);
+            }
+        }
+
+        .card {
+            background-color: #2d2d2d;
+            border: 1px solid #3d3d3d;
+        }
+        
+        .card-header {
+            background-color: #2d2d2d;
+            border-bottom: 1px solid #3d3d3d;
+            color: #00ff00;
+        }
+        
+        .card-body {
+            background-color: #2d2d2d;
+        }
+
+        .progress {
+            background-color: #3d3d3d;
+        }
+        
+        .progress-bar {
+            background-color: #00ff00;
+        }
+        
+        .progress-bar.bg-warning {
+            background-color: #ffd700 !important;
+        }
+        
+        .progress-bar.bg-danger {
+            background-color: #ff4444 !important;
+        }
+
+        .alert-info {
+            background-color: #1e3b3b;
+            border-color: #2d4d4d;
+            color: #00ffff;
+        }
+
+        .fas {
+            color: #00ff00;
+        }
+
+        .fas.fa-exclamation-triangle {
+            color: #ffd700;
+        }
+
+        #editor-container {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .editor-wrapper {
+            flex: 1;
+            border: 1px solid #3d3d3d;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        #original-editor, #mitigated-editor {
+            width: 100%;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div id="loadingBar" class="loading-bar" style="display: none;"></div>
+    <canvas id="matrixCanvas"></canvas>
+
+    <div class="container-fluid comparison-container">
+        <h2 class="text-center mb-4">Code Comparison</h2>
+        
+        <!-- Error Alert -->
+        <div id="errorAlert" class="alert alert-danger" style="display: none;">
+            <h4>Error</h4>
+            <p id="errorMessage"></p>
+        </div>
+        
+        <!-- Actions Bar -->
+        <div class="actions-bar">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>File: {{ file_path }}</h5>
+                </div>
+                <div class="col-md-6 text-right">
+                    <button class="btn btn-primary" onclick="downloadMitigatedCode()">Download Mitigated Code</button>
+                    <a href="{{ url_for('result', file_path=file_path) }}" class="btn btn-primary">Back to Results</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid mt-4">
+            <div id="editor-container">
+                <div class="editor-wrapper">
+                    <h3 class="editor-title">Original Code</h3>
+                    <div id="original-editor"></div>
+                </div>
+                <div class="editor-wrapper">
+                    <h3 class="editor-title">Mitigated Code</h3>
+                    <div id="mitigated-editor"></div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <h4>Security Verification Results</h4>
+                </div>
+                <div class="card-body">
+                    <!-- Security Score -->
+                    {% if quality_metrics %}
+                    <div class="mb-4">
+                        <h5>Security Score</h5>
+                        <div class="progress">
+                            <div class="progress-bar {% if quality_metrics.metrics.security_score >= 80 %}bg-success{% elif quality_metrics.metrics.security_score >= 60 %}bg-warning{% else %}bg-danger{% endif %}" 
+                                 role="progressbar" 
+                                 style="width: {{ quality_metrics.metrics.security_score }}%"
+                                 aria-valuenow="{{ quality_metrics.metrics.security_score }}" 
+                                 aria-valuemin="0" 
+                                 aria-valuemax="100">
+                                {{ quality_metrics.metrics.security_score }}%
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                    
+                    <!-- Mitigation Verification -->
+                    <div class="mb-4">
+                        <h5>Mitigation Verification</h5>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h6>Security Improvements</h6>
+                                <ul class="list-group">
+                                    {% for improvement in verification_results.security_improvements %}
+                                    <li class="list-group-item list-group-item-success">
+                                        <i class="fas fa-check-circle"></i> {{ improvement.details }}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h6>Remaining Issues</h6>
+                                <ul class="list-group">
+                                    {% for issue in verification_results.remaining_issues %}
+                                    <li class="list-group-item list-group-item-warning">
+                                        <i class="fas fa-exclamation-triangle"></i> {{ issue.details }}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Code Quality Metrics -->
+                    {% if quality_metrics %}
+                    <div class="mb-4">
+                        <h5>Code Quality Metrics</h5>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h6>Complexity</h6>
+                                        <div class="progress">
+                                            <div class="progress-bar {% if quality_metrics.metrics.complexity <= 10 %}bg-success{% elif quality_metrics.metrics.complexity <= 15 %}bg-warning{% else %}bg-danger{% endif %}" 
+                                                 role="progressbar" 
+                                                 style="width: {{ (quality_metrics.metrics.complexity / 20) * 100 }}%"
+                                                 aria-valuenow="{{ quality_metrics.metrics.complexity }}" 
+                                                 aria-valuemin="0" 
+                                                 aria-valuemax="20">
+                                                {{ quality_metrics.metrics.complexity }}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h6>Maintainability</h6>
+                                        <div class="progress">
+                                            <div class="progress-bar {% if quality_metrics.metrics.maintainability >= 0.7 %}bg-success{% elif quality_metrics.metrics.maintainability >= 0.5 %}bg-warning{% else %}bg-danger{% endif %}" 
+                                                 role="progressbar" 
+                                                 style="width: {{ quality_metrics.metrics.maintainability * 100 }}%"
+                                                 aria-valuenow="{{ quality_metrics.metrics.maintainability }}" 
+                                                 aria-valuemin="0" 
+                                                 aria-valuemax="1">
+                                                {{ "%.2f"|format(quality_metrics.metrics.maintainability) }}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h6>Test Coverage</h6>
+                                        <div class="progress">
+                                            <div class="progress-bar {% if quality_metrics.metrics.test_coverage >= 0.8 %}bg-success{% elif quality_metrics.metrics.test_coverage >= 0.6 %}bg-warning{% else %}bg-danger{% endif %}" 
+                                                 role="progressbar" 
+                                                 style="width: {{ quality_metrics.metrics.test_coverage * 100 }}%"
+                                                 aria-valuenow="{{ quality_metrics.metrics.test_coverage }}" 
+                                                 aria-valuemin="0" 
+                                                 aria-valuemax="1">
+                                                {{ "%.1f"|format(quality_metrics.metrics.test_coverage * 100) }}%
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                    
+                    <!-- Recommendations -->
+                    {% if quality_metrics and quality_metrics.recommendations %}
+                    <div class="mb-4">
+                        <h5>Recommendations</h5>
+                        <ul class="list-group">
+                            {% for recommendation in quality_metrics.recommendations %}
+                            <li class="list-group-item">
+                                <i class="fas fa-lightbulb"></i> {{ recommendation }}
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                    
+                    <!-- Security Report -->
+                    {% if security_report %}
+                    <div class="mb-4">
+                        <h5>Security Report</h5>
+                        <div class="alert alert-info">
+                            <i class="fas fa-file-alt"></i> A detailed security report has been generated.
+                            <a href="{{ security_report }}" class="btn btn-primary ml-2" target="_blank">
+                                View Report
+                            </a>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Secure Vigil. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Required Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        // Store template variables safely
+        const editorConfig = {
+            originalCode: {{ original_code | safe }},
+            mitigatedCode: {{ mitigated_code | safe }},
+            language: '{{ language }}',
+            vulnerabilities: {{ vulnerabilities | tojson | safe }}
+        };
+
+        // Initialize Monaco Editor
+        require.config({ paths: { vs: 'https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.36.1/min/vs' }});
+
+        // Wait for DOM content to be loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            require(['vs/editor/editor.main'], function() {
+                try {
+                    initializeEditors();
+                } catch (error) {
+                    console.error('Error initializing editors:', error);
+                    showError('Error initializing code editors. Please try refreshing the page.');
+                }
+            });
+        });
+
+        function initializeEditors() {
+            // Ensure the containers are ready
+            const originalContainer = document.getElementById('original-editor');
+            const mitigatedContainer = document.getElementById('mitigated-editor');
+
+            if (!originalContainer || !mitigatedContainer) {
+                throw new Error('Editor containers not found');
+            }
+
+            // Log initialization details
+            console.log('Initializing editors with:', {
+                originalCodeLength: editorConfig.originalCode ? editorConfig.originalCode.length : 0,
+                mitigatedCodeLength: editorConfig.mitigatedCode ? editorConfig.mitigatedCode.length : 0,
+                language: editorConfig.language
+            });
+
+            // Map file extensions to Monaco editor language IDs
+            const languageMap = {
+                'python': 'python',
+                'php': 'php',
+                'java': 'java',
+                'javascript': 'javascript',
+                'c': 'c',
+                'cpp': 'cpp',
+                'html': 'html',
+                'css': 'css',
+                'sql': 'sql',
+                'xml': 'xml',
+                'json': 'json',
+                'yaml': 'yaml',
+                'markdown': 'markdown',
+                'plaintext': 'plaintext'
+            };
+
+            // Get the correct language ID for Monaco editor
+            const editorLanguage = languageMap[editorConfig.language] || 'plaintext';
+
+            // Set up the original code editor
+            try {
+                window.originalEditor = monaco.editor.create(originalContainer, {
+                    value: editorConfig.originalCode || '// No code available',
+                    language: editorLanguage,
+                    theme: 'vs-dark',
+                    readOnly: true,
+                    minimap: { enabled: true },
+                    scrollBeyondLastLine: false,
+                    fontSize: 14,
+                    lineNumbers: 'on',
+                    renderLineHighlight: 'all',
+                    wordWrap: 'on',
+                    automaticLayout: true,
+                    contextmenu: true
+                });
+                console.log('Original editor initialized successfully');
+            } catch (error) {
+                console.error('Error initializing original editor:', error);
+                showError('Error initializing original code editor');
+            }
+
+            // Set up the mitigated code editor
+            try {
+                window.mitigatedEditor = monaco.editor.create(mitigatedContainer, {
+                    value: editorConfig.mitigatedCode || '// No mitigated code available',
+                    language: editorLanguage,
+                    theme: 'vs-dark',
+                    readOnly: true,
+                    minimap: { enabled: true },
+                    scrollBeyondLastLine: false,
+                    fontSize: 14,
+                    lineNumbers: 'on',
+                    renderLineHighlight: 'all',
+                    wordWrap: 'on',
+                    automaticLayout: true,
+                    contextmenu: true
+                });
+                console.log('Mitigated editor initialized successfully');
+            } catch (error) {
+                console.error('Error initializing mitigated editor:', error);
+                showError('Error initializing mitigated code editor');
+            }
+
+            // Add resize listener
+            window.addEventListener('resize', function() {
+                if (window.originalEditor && window.mitigatedEditor) {
+                    window.originalEditor.layout();
+                    window.mitigatedEditor.layout();
+                }
+            });
+
+            // Initial layout adjustment with delay
+            setTimeout(function() {
+                if (window.originalEditor && window.mitigatedEditor) {
+                    window.originalEditor.layout();
+                    window.mitigatedEditor.layout();
+                }
+            }, 1000);
+
+            // Highlight vulnerability lines in original code if available
+            if (editorConfig.vulnerabilities && editorConfig.vulnerabilities.length > 0 && window.originalEditor) {
+                try {
+                    const decorations = editorConfig.vulnerabilities
+                        .filter(v => v.line_number !== undefined)
+                        .map(function(v) {
+                            return {
+                                range: new monaco.Range(v.line_number, 1, v.line_number, 1),
+                                options: {
+                                    isWholeLine: true,
+                                    className: 'vulnerability-line',
+                                    glyphMarginClassName: 'vulnerability-glyph',
+                                    linesDecorationsClassName: 'vulnerability-line-decoration',
+                                    overviewRulerColor: 'red',
+                                    overviewRulerLane: monaco.editor.OverviewRulerLane.Right
+                                }
+                            };
+                        });
+                    if (decorations.length > 0) {
+                        window.originalEditor.deltaDecorations([], decorations);
+                    }
+                } catch (error) {
+                    console.error('Error highlighting vulnerabilities:', error);
+                }
+            }
+        }
+
+        function showError(message) {
+            const errorAlert = document.getElementById('errorAlert');
+            const errorMessage = document.getElementById('errorMessage');
+            if (errorAlert && errorMessage) {
+                errorMessage.textContent = message;
+                errorAlert.style.display = 'block';
+                // Scroll to error message
+                errorAlert.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        function downloadMitigatedCode() {
+            if (!window.mitigatedEditor) {
+                showError('Editor not initialized. Please try refreshing the page.');
+                return;
+            }
+
+            try {
+                const code = window.mitigatedEditor.getValue();
+                const blob = new Blob([code], { type: 'text/plain' });
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                const filename = '{{ file_path }}'.split('/').pop();
+                a.download = 'mitigated_' + filename;
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
+                document.body.removeChild(a);
+            } catch (error) {
+                console.error('Error downloading code:', error);
+                showError('Error downloading mitigated code. Please try again.');
+            }
+        }
+
+        // Matrix animation code
+        const canvas = document.getElementById('matrixCanvas');
+        const ctx = canvas.getContext('2d');
+
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        const fontSize = 16;
+        const columns = canvas.width / fontSize;
+        const drops = Array(Math.floor(columns)).fill(1);
+
+        function drawMatrix() {
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            ctx.fillStyle = '#0F0';
+            ctx.font = `${fontSize}px monospace`;
+
+            drops.forEach((y, x) => {
+                const text = Math.random() > 0.5 ? '0' : '1';
+                ctx.fillText(text, x * fontSize, y * fontSize);
+
+                if (y * fontSize > canvas.height && Math.random() > 0.975) {
+                    drops[x] = 0;
+                }
+
+                drops[x]++;
+            });
+        }
+
+        setInterval(drawMatrix, 50);
+
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            drops.length = Math.floor(canvas.width / fontSize);
+            drops.fill(1);
+        });
+    </script>
+</body>
+</html> 

@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-03-24T18:16:34.342008",
+  "file_path": "uploads/upload_1742820348.php",
+  "language": "php",
+  "vulnerabilities": [
+    {
+      "type": "shell_exec",
+      "line_number": 41,
+      "severity": "High",
+      "description": "Potential security vulnerability: shell_exec"
+    },
+    {
+      "type": "system",
+      "line_number": 8,
+      "severity": "High",
+      "description": "Potential security vulnerability: system"
+    },
+    {
+      "type": "exec",
+      "line_number": 41,
+      "severity": "High",
+      "description": "Potential security vulnerability: exec"
+    },
+    {
+      "type": "exec",
+      "line_number": 61,
+      "severity": "High",
+      "description": "Potential security vulnerability: exec"
+    }
+  ],
+  "quality_metrics": {
+    "timestamp": "2025-03-24T18:16:34.342054",
+    "language": "php",
+    "metrics": {
+      "complexity": 13,
+      "maintainability": 0.821917808219178,
+      "test_coverage": 0.0,
+      "security_score": 15.0
+    },
+    "recommendations": [
+      "Consider breaking down complex functions into smaller, more manageable pieces",
+      "Increase test coverage to improve code reliability"
+    ]
+  },
+  "security_score": 15.0,
+  "recommendations": [
+    "Reduce code complexity to improve maintainability"
+  ]
+}

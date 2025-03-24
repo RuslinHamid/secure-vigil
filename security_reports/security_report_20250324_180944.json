@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-03-24T18:09:44.533053",
+  "file_path": "uploads/upload_1742819942.php",
+  "language": "php",
+  "vulnerabilities": [
+    {
+      "type": "shell_exec",
+      "line_number": 41,
+      "severity": "High",
+      "description": "Potential security vulnerability: shell_exec"
+    },
+    {
+      "type": "system",
+      "line_number": 8,
+      "severity": "High",
+      "description": "Potential security vulnerability: system"
+    },
+    {
+      "type": "exec",
+      "line_number": 41,
+      "severity": "High",
+      "description": "Potential security vulnerability: exec"
+    },
+    {
+      "type": "exec",
+      "line_number": 61,
+      "severity": "High",
+      "description": "Potential security vulnerability: exec"
+    }
+  ],
+  "quality_metrics": {
+    "error": "'SecurityVerifier' object has no attribute '_run_php_quality_checks'"
+  },
+  "security_score": 20.0,
+  "recommendations": []
+}

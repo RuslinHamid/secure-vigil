@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Results</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            background-color: #1d1d1d;
+            color: #00ff00; /* Matrix green */
+            font-family: 'Courier New', Courier, monospace;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* Matrix Background */
+        #matrix-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.1;
+            pointer-events: none;
+        }
+
+        .summary-box {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: #00ff00;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            border: 2px solid #00ff00;
+            backdrop-filter: blur(5px);
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            background-color: rgba(51, 51, 51, 0.9);
+            color: #00ff00;
+            backdrop-filter: blur(5px);
+        }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.9);
+            border-bottom: 2px solid #00ff00;
+            backdrop-filter: blur(5px);
+        }
+
+        .navbar-nav .nav-link {
+            color: #00ff00 !important;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #333 !important;
+        }
+
+        .btn-secondary {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: #00ff00;
+            border: 2px solid #00ff00;
+            backdrop-filter: blur(5px);
+        }
+
+        .btn-secondary:hover {
+            background-color: #00ff00;
+            color: #000;
+        }
+
+        .list-group-item {
+            background-color: rgba(29, 29, 29, 0.8);
+            border: 1px solid #333;
+            color: #00ff00;
+            backdrop-filter: blur(5px);
+        }
+
+        .list-group-item:hover {
+            background-color: rgba(51, 51, 51, 0.8);
+        }
+
+        .badge {
+            background-color: #00ff00;
+        }
+
+        canvas {
+            background-color: rgba(29, 29, 29, 0.8);
+            backdrop-filter: blur(5px);
+        }
+
+        .alert {
+            display: none;
+        }
+        
+        pre {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: #00ff00;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+            backdrop-filter: blur(5px);
+        }
+        
+        code {
+            color: #00ff00;
+        }
+        
+        .mitigation-content {
+            white-space: pre-line;
+            background-color: rgba(51, 51, 51, 0.8);
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            backdrop-filter: blur(5px);
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Matrix Background Canvas -->
+    <canvas id="matrix-bg"></canvas>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Secure Vigil</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        <div class="alert alert-success" role="alert">
+            {{ messages[0] }}
+        </div>
+        {% endif %}
+        {% endwith %}
+
+        <h1>Analysis Results for {{ file_path }}</h1>
+
+        <!-- Summary Box -->
+        {% if vulnerabilities %}
+        <div class="summary-box mt-4">
+            <h4 class="mb-3">Vulnerability Summary</h4>
+            <p><strong>Total Vulnerabilities:</strong> {{ vulnerabilities|length }}</p>
+            <ul class="list-group mt-3">
+                {% for vtype, count in vulnerability_summary.items() %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <a data-toggle="collapse" href="#collapse{{ loop.index }}" role="button" aria-expanded="false" aria-controls="collapse{{ loop.index }}">
+                            {{ vtype }}
+                        </a>
+                        <span class="badge badge-primary badge-pill">{{ count }}</span>
+                    </li>
+                    <div class="collapse" id="collapse{{ loop.index }}">
+                        <ul class="list-group mt-2">
+                            {% for vulnerability in vulnerabilities if vulnerability['type'] == vtype %}
+                            <li class="list-group-item">
+                                <strong>Pattern:</strong> {{ vulnerability['pattern'] }}<br>
+                                <strong>Line:</strong> {{ vulnerability['line_number'] }}<br>
+                                <strong>Reference:</strong> 
+                                {% if vulnerability['type'] == 'Code Injection' %}
+                                    <a href="https://cheatsheetseries.owasp.org/cheatsheets/Code_Injection.html" target="_blank">OWASP Code Injection</a>
+                                    &nbsp; 
+                                    <a href="https://owasp.org/www-community/attacks/Code_Injection" target="_blank">OWASP Code Injection</a>
+                                {% elif vulnerability['type'] == 'SQL Injection' %}
+                                    <a href="https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html" target="_blank">OWASP SQL Injection</a>
+                                    &nbsp; 
+                                    <a href="https://owasp.org/www-community/attacks/SQL_Injection" target="_blank">OWASP SQL Injection</a>
+                                {% elif vulnerability['type'] == 'LFI (Local File Inclusion)' %}
+                                    <a href="https://cheatsheetseries.owasp.org/cheatsheets/File_Inclusion.html" target="_blank">OWASP File Inclusion</a>
+                                    &nbsp;
+                                    <a href="https://owasp.org/www-community/attacks/Path_Traversal" target="_blank">OWASP Path Traversal</a>
+                                {% elif vulnerability['type'] == 'RFI (Remote File Inclusion)' %}
+                                    <a href="https://cheatsheetseries.owasp.org/cheatsheets/File_Inclusion.html" target="_blank">OWASP File Inclusion</a>
+                                    &nbsp;
+                                    <a href="https://owasp.org/www-community/attacks/Remote_File_Inclusion" target="_blank">OWASP Remote File Inclusion</a>
+                                {% elif vulnerability['type'] == 'Cross-Site Scripting (XSS)' %}
+                                    <a href="https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html" target="_blank">OWASP XSS Prevention Cheat Sheet</a>
+                                    &nbsp; 
+                                    <a href="https://owasp.org/www-community/attacks/xss/" target="_blank">OWASP XSS</a>
+                                {% elif vulnerability['type'] == 'Command Injection' %}
+                                    <a href="https://cheatsheetseries.owasp.org/cheatsheets/OS_Command_Injection_Defense_Cheat_Sheet.html" target="_blank">OWASP Command Injection Defense Cheat Sheet</a>
+                                    &nbsp; 
+                                    <a href="https://owasp.org/www-community/attacks/Command_Injection" target="_blank">OWASP Command Injection</a>
+                                {% elif vulnerability['type'] == 'Cryptographic Vulnerability' %}
+                                    <a href="https://owasp.org/Top10/A02_2021-Cryptographic_Failures/" target="_blank">OWASP Cryptographic Failures</a>
+                                {% elif vulnerability['type'] == 'Unvalidated Redirects and Forwards' %}
+                                    <a href="https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html" target="_blank">OWASP Unvalidated Redirects and Forwards</a>
+                                    &nbsp; 
+                                    <a href="https://owasp.org/www-community/attacks/Unvalidated_Redirects_and_Forwards" target="_blank">OWASP Unvalidated Redirects and Forwards</a>
+                                {% elif vulnerability['type'] == 'File Upload Vulnerability' %}
+                                    <a href="https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload" target="_blank">OWASP Unrestricted File Upload</a>
+                                {% endif %}
+                                <br>
+                                <strong>Mitigation:</strong> See the Mitigations section below for detailed remediation steps.
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        <!-- Mitigation Review Section -->
+        {% if vulnerabilities %}
+        <div class="mt-4">
+            <button class="btn btn-secondary w-100 p-3" id="mitigationsButton" 
+                    style="font-size: 1.2rem; font-weight: bold; text-align: left; position: relative;">
+                Review Mitigations
+                <span style="position: absolute; right: 20px;" id="mitigationArrow">▼</span>
+            </button>
+            
+            <div id="mitigationsContainer" style="display: none; margin-top: 15px; background-color: #1d1d1d; border: 2px solid #00ff00; padding: 15px;">
+                {% if mitigations %}
+                <div class="list-group">
+                    {% for vtype, mitigation in mitigations.items() %}
+                        <div class="list-group-item mb-3">
+                            <h5 class="mb-2" style="font-weight: bold; font-size: 1.2rem;">{{ vtype }}</h5>
+                            <div class="mitigation-content">{{ mitigation }}</div>
+                            
+                            <div class="mt-3">
+                                <h6 class="mb-2" style="font-weight: bold;">Related Vulnerabilities:</h6>
+                                <ul class="list-unstyled pl-3">
+                                    {% for vulnerability in vulnerabilities if vulnerability['type'] == vtype %}
+                                        <li class="mb-2" style="list-style-type: disc; margin-left: 15px;">
+                                            <strong>Pattern:</strong> {{ vulnerability['pattern'] }}<br>
+                                            <strong>Line:</strong> {{ vulnerability['line_number'] }}
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <div class="alert alert-warning">
+                    No mitigation information available. Please try analyzing the file again.
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Charts -->
+        {% if vulnerabilities %}
+        <canvas id="vulnerabilityChart" class="mt-5"></canvas>
+        {% endif %}
+
+        <a href="{{ url_for('index') }}" class="btn btn-secondary mt-5">Upload another file</a>
+        &nbsp; &nbsp; &nbsp;
+        <a href="{{ url_for('download_pdf', filename=pdf_path) }}" class="btn btn-secondary mt-5">Download PDF Report</a>
+        &nbsp; &nbsp; &nbsp;
+        <a href="{{ url_for('compare_code', file_path=file_path) }}" class="btn btn-secondary mt-5">Compare & Fix Code</a>
+        &nbsp; &nbsp; &nbsp;
+
+        <!-- Email Form -->
+        <form action="{{ url_for('send_email_report') }}" method="post" class="mt-5">
+            <div class="form-group">
+                <input type="hidden" name="pdf_path" value="{{ pdf_path }}">
+                <input type="email" name="email" class="form-control" placeholder="Enter email to receive report" required>
+            </div>
+            <button type="submit" class="btn btn-secondary">Send Report via Email</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white">
+        <div class="container text-center">
+            <p>&copy; 2024 Secure Vigil. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Charts -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var ctx = document.getElementById('vulnerabilityChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: {{ vulnerability_types|tojson }},
+                    datasets: [{
+                        label: 'Number of Vulnerabilities',
+                        data: {{ vulnerability_counts|tojson }},
+                        backgroundColor: 'rgba(0, 255, 0, 0.2)',
+                        borderColor: 'rgba(0, 255, 0, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: { color: '#00ff00' },
+                            grid: { color: 'rgba(0, 255, 0, 0.1)' }
+                        },
+                        x: {
+                            ticks: { color: '#00ff00' },
+                            grid: { color: 'rgba(0, 255, 0, 0.1)' }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            labels: { color: '#00ff00' }
+                        }
+                    }
+                }
+            });
+        });
+
+        // Mitigation review toggle functionality
+        document.getElementById('mitigationsButton').addEventListener('click', function() {
+            var container = document.getElementById('mitigationsContainer');
+            var arrow = document.getElementById('mitigationArrow');
+            
+            if (container.style.display === 'none') {
+                container.style.display = 'block';
+                arrow.textContent = '▲';
+            } else {
+                container.style.display = 'none';
+                arrow.textContent = '▼';
+            }
+        });
+    </script>
+
+    <!-- Matrix Background Script -->
+    <script>
+        const canvas = document.getElementById('matrix-bg');
+        const ctx = canvas.getContext('2d');
+
+        // Set canvas size to window size
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        resizeCanvas();
+        window.addEventListener('resize', resizeCanvas);
+
+        // Matrix characters
+        const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*()*&^%";
+        const charArray = chars.split('');
+        const fontSize = 14;
+        const columns = canvas.width / fontSize;
+        const drops = [];
+
+        // Initialize drops
+        for (let i = 0; i < columns; i++) {
+            drops[i] = 1;
+        }
+
+        // Drawing function
+        function draw() {
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            ctx.fillStyle = '#0F0';
+            ctx.font = fontSize + 'px monospace';
+
+            for (let i = 0; i < drops.length; i++) {
+                const text = charArray[Math.floor(Math.random() * charArray.length)];
+                ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+                if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+                    drops[i] = 0;
+                }
+                drops[i]++;
+            }
+        }
+
+        // Animation loop
+        setInterval(draw, 33);
+    </script>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,1820 @@
+2025-03-18 16:31:20,977 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 16:31:20,977 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-03-18 16:31:20,978 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:31:21,701 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:31:21,711 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 16:31:28,272 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:31:28] "GET / HTTP/1.1" 200 -
+2025-03-18 16:31:39,201 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 16:31:39,202 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 16:31:57,400 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:31:57] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-18 16:31:57,427 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:31:57] "GET /result?file_path=uploads/all_vul_4.php HTTP/1.1" 200 -
+2025-03-18 16:34:21,634 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:34:21] "GET / HTTP/1.1" 200 -
+2025-03-18 16:34:39,731 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 16:34:39,916 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:34:40,880 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:34:40,890 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 16:36:23,092 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:36:23] "GET / HTTP/1.1" 200 -
+2025-03-18 16:36:46,015 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:36:46] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-03-18 16:36:54,927 [ERROR] secure_vigil: Not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-18 16:36:54,929 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:36:54] "[33mPOST /generate_mitigation HTTP/1.1[0m" 404 -
+2025-03-18 16:37:03,832 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:37:03] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-03-18 16:37:13,282 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:37:13] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-03-18 16:38:22,050 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 16:38:22,246 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:38:23,281 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:38:23,313 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 16:38:36,536 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 16:38:36,698 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:38:37,560 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:38:37,571 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 16:38:41,686 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 16:38:41,842 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:38:42,580 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:38:42,588 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 16:39:15,052 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:39:15] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-03-18 16:39:27,408 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:39:27] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-03-18 16:40:17,418 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 16:40:17,603 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:40:18,588 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:40:18,599 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 16:40:20,659 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 16:40:20,961 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:40:21,771 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:40:21,778 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 16:41:10,691 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:41:10] "GET / HTTP/1.1" 200 -
+2025-03-18 16:41:23,329 [INFO] secure_vigil: Received analysis request for language: c
+2025-03-18 16:41:23,330 [INFO] secure_vigil: Analyzing code for vulnerabilities...
+2025-03-18 16:41:23,371 [INFO] secure_vigil: Found 2 vulnerabilities
+2025-03-18 16:41:23,372 [ERROR] secure_vigil: Error in analyze_code: 'pattern'
+Traceback (most recent call last):
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py", line 252, in analyze_code
+    mitigations = generate_mitigations(vulnerabilities)
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py", line 387, in generate_mitigations
+    vulnerability_details.append(f"Type: {v['type']}, Pattern: {v['pattern']}, Line: {v['line_number']}")
+                                                                ~^^^^^^^^^^^
+KeyError: 'pattern'
+2025-03-18 16:41:23,375 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:41:23] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-03-18 16:42:15,725 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 16:42:15,891 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:42:16,798 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:42:16,807 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 16:42:18,854 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 16:42:19,008 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:42:19,765 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:42:19,773 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 16:42:43,248 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:42:43] "GET / HTTP/1.1" 200 -
+2025-03-18 16:42:53,980 [INFO] secure_vigil: Received analysis request for language: c
+2025-03-18 16:42:53,981 [INFO] secure_vigil: Analyzing code for vulnerabilities...
+2025-03-18 16:42:54,014 [INFO] secure_vigil: Found 2 vulnerabilities
+2025-03-18 16:42:54,014 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 16:42:54,014 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 16:43:04,880 [ERROR] secure_vigil: Error in analyze_code: 'pattern'
+Traceback (most recent call last):
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py", line 261, in analyze_code
+    pdf_path = generate_pdf(temp_file, vulnerabilities, vulnerability_summary, mitigations)
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py", line 178, in generate_pdf
+    c.drawString(120, y - 15, f"Pattern: {vulnerability['pattern']}")
+                                          ~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pattern'
+2025-03-18 16:43:04,886 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:43:04] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-03-18 16:44:01,649 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 16:44:01,649 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-03-18 16:44:01,650 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:44:02,368 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:44:02,377 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 16:44:04,102 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:44:04] "GET / HTTP/1.1" 200 -
+2025-03-18 16:44:14,565 [INFO] secure_vigil: Received analysis request for language: c
+2025-03-18 16:44:14,565 [INFO] secure_vigil: Analyzing code for vulnerabilities...
+2025-03-18 16:44:14,594 [INFO] secure_vigil: Found 2 vulnerabilities
+2025-03-18 16:44:14,595 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 16:44:14,595 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 16:44:26,299 [ERROR] secure_vigil: Error in analyze_code: 'pattern'
+Traceback (most recent call last):
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py", line 261, in analyze_code
+    pdf_path = generate_pdf(temp_file, vulnerabilities, vulnerability_summary, mitigations)
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py", line 178, in generate_pdf
+    c.drawString(120, y - 15, f"Pattern: {vulnerability['pattern']}")
+                                          ~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pattern'
+2025-03-18 16:44:26,305 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:44:26] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-03-18 16:45:14,702 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 16:45:14,878 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:45:15,800 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:45:15,811 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 16:45:17,863 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 16:45:18,026 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:45:18,823 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:45:18,832 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 16:45:52,564 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:45:52] "GET / HTTP/1.1" 200 -
+2025-03-18 16:46:01,068 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 16:46:01,068 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 16:46:21,512 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:46:21] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-18 16:46:21,538 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:46:21] "GET /result?file_path=uploads/all_vul_4.php HTTP/1.1" 200 -
+2025-03-18 16:46:33,813 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:46:33] "GET / HTTP/1.1" 200 -
+2025-03-18 16:46:46,206 [INFO] secure_vigil: Received analysis request for language: c
+2025-03-18 16:46:46,207 [INFO] secure_vigil: Analyzing code for vulnerabilities...
+2025-03-18 16:46:46,210 [INFO] secure_vigil: Found 2 vulnerabilities
+2025-03-18 16:46:46,210 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 16:46:46,210 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 16:46:54,680 [INFO] secure_vigil: Analysis completed successfully
+2025-03-18 16:46:54,683 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:46:54] "POST /analyze HTTP/1.1" 200 -
+2025-03-18 16:46:54,711 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:46:54] "GET /result?file_path=uploads/temp_1742296606.c HTTP/1.1" 200 -
+2025-03-18 16:47:09,620 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:47:09] "GET / HTTP/1.1" 200 -
+2025-03-18 16:47:59,234 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 16:47:59,410 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:48:00,336 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:48:00,348 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 16:48:02,410 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 16:48:02,561 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:48:03,310 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:48:03,317 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 16:50:00,059 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:50:00] "GET /result?file_path=uploads/temp_1742296606.c HTTP/1.1" 200 -
+2025-03-18 16:50:09,277 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:50:09] "GET / HTTP/1.1" 200 -
+2025-03-18 16:50:18,129 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 16:50:18,129 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 16:50:32,400 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:50:32] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-18 16:50:32,415 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:50:32] "GET /result?file_path=uploads/all_vul_4.php HTTP/1.1" 200 -
+2025-03-18 16:51:05,572 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:51:05] "GET / HTTP/1.1" 200 -
+2025-03-18 16:51:06,789 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:51:06] "GET /about HTTP/1.1" 200 -
+2025-03-18 16:51:12,636 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:51:12] "GET / HTTP/1.1" 200 -
+2025-03-18 16:52:00,311 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:52:00] "POST /generate_mitigation HTTP/1.1" 200 -
+2025-03-18 16:52:48,969 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:52:48] "POST /generate_mitigation HTTP/1.1" 200 -
+2025-03-18 16:52:55,570 [INFO] secure_vigil: Received analysis request for language: python
+2025-03-18 16:52:55,571 [INFO] secure_vigil: Analyzing code for vulnerabilities...
+2025-03-18 16:52:55,581 [INFO] secure_vigil: Found 4 vulnerabilities
+2025-03-18 16:52:55,583 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 16:52:55,583 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 16:53:02,765 [INFO] secure_vigil: Analysis completed successfully
+2025-03-18 16:53:02,769 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:53:02] "POST /analyze HTTP/1.1" 200 -
+2025-03-18 16:53:02,799 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:53:02] "GET /result?file_path=uploads/temp_1742296975.python HTTP/1.1" 200 -
+2025-03-18 16:53:27,634 [ERROR] root: Error in compare_code: 'utf-8' codec can't decode byte 0x93 in position 10: invalid start byte
+2025-03-18 16:53:27,636 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:53:27] "[32mGET /compare/uploads/temp_1742296975.python HTTP/1.1[0m" 302 -
+2025-03-18 16:53:27,643 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:53:27] "GET /result?file_path=uploads/temp_1742296975.python HTTP/1.1" 200 -
+2025-03-18 16:53:30,419 [ERROR] root: Error in compare_code: 'utf-8' codec can't decode byte 0x93 in position 10: invalid start byte
+2025-03-18 16:53:30,422 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:53:30] "[32mGET /compare/uploads/temp_1742296975.python HTTP/1.1[0m" 302 -
+2025-03-18 16:53:30,430 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:53:30] "GET /result?file_path=uploads/temp_1742296975.python HTTP/1.1" 200 -
+2025-03-18 16:53:47,769 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:53:47] "GET / HTTP/1.1" 200 -
+2025-03-18 16:53:52,898 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:53:52] "POST /generate_mitigation HTTP/1.1" 200 -
+2025-03-18 16:55:30,463 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 16:55:30,668 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:55:31,639 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:55:31,651 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 16:55:34,711 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 16:55:34,870 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:55:35,612 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:55:35,619 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 16:55:55,945 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 16:55:56,122 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:55:57,014 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:55:57,024 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 16:56:01,115 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 16:56:01,277 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:56:02,082 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:56:02,091 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 16:56:41,615 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:56:41] "GET / HTTP/1.1" 200 -
+2025-03-18 16:57:02,693 [INFO] secure_vigil: Generating mitigation for python code
+2025-03-18 16:57:02,728 [ERROR] root: Error generating mitigated code: 'line_number'
+2025-03-18 16:57:02,728 [ERROR] secure_vigil: Error generating mitigated code: Failed to generate mitigated code
+Traceback (most recent call last):
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py", line 713, in generate_mitigation
+    raise ValueError("Failed to generate mitigated code")
+ValueError: Failed to generate mitigated code
+2025-03-18 16:57:02,730 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:57:02] "[35m[1mPOST /generate_mitigation HTTP/1.1[0m" 500 -
+2025-03-18 16:57:24,022 [INFO] secure_vigil: Received analysis request for language: python
+2025-03-18 16:57:24,022 [INFO] secure_vigil: Analyzing code for vulnerabilities...
+2025-03-18 16:57:24,033 [INFO] secure_vigil: Found 4 vulnerabilities
+2025-03-18 16:57:24,033 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 16:57:24,033 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 16:57:32,736 [INFO] secure_vigil: Analysis completed successfully
+2025-03-18 16:57:32,739 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:57:32] "POST /analyze HTTP/1.1" 200 -
+2025-03-18 16:57:32,777 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:57:32] "GET /result?file_path=uploads/temp_1742297244.python HTTP/1.1" 200 -
+2025-03-18 16:57:38,343 [ERROR] root: Error generating mitigated code: 'line_number'
+2025-03-18 16:57:38,344 [INFO] secure_vigil: Comparing code for file: uploads/temp_1742297244.python
+2025-03-18 16:57:38,344 [INFO] secure_vigil: Language detected: text
+2025-03-18 16:57:38,344 [INFO] secure_vigil: Number of vulnerabilities: 4
+2025-03-18 16:57:38,355 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:57:38] "GET /compare/uploads/temp_1742297244.python HTTP/1.1" 200 -
+2025-03-18 16:57:54,776 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/tests/test_vulnerability_analyzer.py', reloading
+2025-03-18 16:57:54,945 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:57:55,830 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:57:55,839 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 16:57:57,908 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/tests/test_vulnerability_analyzer.py', reloading
+2025-03-18 16:57:58,075 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:57:58,800 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:57:58,816 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 16:58:01,886 [ERROR] root: Error generating mitigated code: 'line_number'
+2025-03-18 16:58:01,886 [INFO] secure_vigil: Comparing code for file: uploads/temp_1742297244.python
+2025-03-18 16:58:01,887 [INFO] secure_vigil: Language detected: text
+2025-03-18 16:58:01,887 [INFO] secure_vigil: Number of vulnerabilities: 4
+2025-03-18 16:58:01,899 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 16:58:01] "GET /compare/uploads/temp_1742297244.python HTTP/1.1" 200 -
+2025-03-18 16:59:07,056 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 16:59:07,230 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:59:08,182 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:59:08,191 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 16:59:12,273 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 16:59:12,511 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 16:59:13,303 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 16:59:13,311 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:01:07,418 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:01:28,665 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:01:28,666 [INFO] secure_vigil: Comparing code for file: uploads/temp_1742297244.python
+2025-03-18 17:01:28,666 [INFO] secure_vigil: Language detected: text
+2025-03-18 17:01:28,666 [INFO] secure_vigil: Number of vulnerabilities: 4
+2025-03-18 17:01:28,687 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:01:28] "GET /compare/uploads/temp_1742297244.python HTTP/1.1" 200 -
+2025-03-18 17:01:40,293 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:01:40] "GET / HTTP/1.1" 200 -
+2025-03-18 17:02:05,196 [INFO] secure_vigil: Generating mitigation for python code
+2025-03-18 17:02:05,234 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:02:12,898 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:02:12,902 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:02:12] "POST /generate_mitigation HTTP/1.1" 200 -
+2025-03-18 17:02:31,576 [INFO] secure_vigil: Received analysis request for language: python
+2025-03-18 17:02:31,577 [INFO] secure_vigil: Analyzing code for vulnerabilities...
+2025-03-18 17:02:31,587 [INFO] secure_vigil: Found 4 vulnerabilities
+2025-03-18 17:02:31,587 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:02:31,588 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:02:36,035 [ERROR] root: API error: can only concatenate str (not "NoneType") to str
+2025-03-18 17:02:36,046 [INFO] secure_vigil: Analysis completed successfully
+2025-03-18 17:02:36,048 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:02:36] "POST /analyze HTTP/1.1" 200 -
+2025-03-18 17:02:36,083 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:02:36] "GET /result?file_path=uploads/temp_1742297551.python HTTP/1.1" 200 -
+2025-03-18 17:03:00,266 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:03:11,062 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:03:11,064 [INFO] secure_vigil: Comparing code for file: uploads/temp_1742297551.python
+2025-03-18 17:03:11,064 [INFO] secure_vigil: Language detected: text
+2025-03-18 17:03:11,064 [INFO] secure_vigil: Number of vulnerabilities: 4
+2025-03-18 17:03:11,071 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:03:11] "GET /compare/uploads/temp_1742297551.python HTTP/1.1" 200 -
+2025-03-18 17:03:51,461 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:03:51] "GET /result?file_path=uploads/temp_1742297551.python HTTP/1.1" 200 -
+2025-03-18 17:03:57,776 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:03:57] "GET /result?file_path=uploads/temp_1742297551.python HTTP/1.1" 200 -
+2025-03-18 17:04:01,870 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:04:01] "GET / HTTP/1.1" 200 -
+2025-03-18 17:04:12,128 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:04:12,128 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:04:24,472 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:04:24] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-18 17:04:24,497 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:04:24] "GET /result?file_path=uploads/test_vulnerability_analyzer.py HTTP/1.1" 200 -
+2025-03-18 17:04:24,622 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/test_vulnerability_analyzer.py', reloading
+2025-03-18 17:04:24,843 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:04:25,821 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:04:25,831 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:04:31,570 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:04:31] "GET / HTTP/1.1" 200 -
+2025-03-18 17:04:36,979 [INFO] secure_vigil: Received analysis request for language: python
+2025-03-18 17:04:36,980 [INFO] secure_vigil: Analyzing code for vulnerabilities...
+2025-03-18 17:04:37,014 [INFO] secure_vigil: Found 4 vulnerabilities
+2025-03-18 17:04:37,015 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:04:37,015 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:04:40,887 [ERROR] root: API error: can only concatenate str (not "NoneType") to str
+2025-03-18 17:04:40,894 [INFO] secure_vigil: Analysis completed successfully
+2025-03-18 17:04:40,898 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:04:40] "POST /analyze HTTP/1.1" 200 -
+2025-03-18 17:04:40,932 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:04:40] "GET /result?file_path=uploads/temp_1742297676.python HTTP/1.1" 200 -
+2025-03-18 17:05:27,219 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:05:35,437 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:05:35,438 [INFO] secure_vigil: Comparing code for file: uploads/temp_1742297676.python
+2025-03-18 17:05:35,438 [INFO] secure_vigil: Language detected: text
+2025-03-18 17:05:35,438 [INFO] secure_vigil: Number of vulnerabilities: 4
+2025-03-18 17:05:35,456 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:05:35] "GET /compare/uploads/temp_1742297676.python HTTP/1.1" 200 -
+2025-03-18 17:06:48,993 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 17:06:49,229 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:06:50,845 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:06:50,854 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:07:12,268 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 17:07:12,471 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:07:13,428 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:07:13,438 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:07:27,869 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 17:07:28,837 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:07:30,737 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:07:30,756 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:07:44,030 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 17:07:44,220 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:07:45,187 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:07:45,200 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:07:50,896 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 17:07:51,490 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:07:53,106 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:07:53,118 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:08:38,051 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 17:08:38,295 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:08:39,180 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:08:39,192 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:08:42,266 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 17:08:42,435 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:08:43,148 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:08:43,155 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:13:52,567 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:13:52] "GET / HTTP/1.1" 200 -
+2025-03-18 17:13:53,478 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:13:53] "GET / HTTP/1.1" 200 -
+2025-03-18 17:14:03,312 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:14:03,312 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:14:04,123 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/test_vulnerability_analyzer.py', reloading
+2025-03-18 17:14:04,335 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:14:05,263 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:14:05,272 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:14:05,315 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:14:05,315 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:14:05,324 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/test_vulnerability_analyzer.py', reloading
+2025-03-18 17:14:05,469 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:14:06,306 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:14:06,316 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:15:36,039 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:15:36,040 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:15:36,051 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/test_vulnerability_analyzer.py', reloading
+2025-03-18 17:15:36,248 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:15:37,209 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:15:37,218 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:15:37,261 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:15:37,261 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:15:37,270 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/test_vulnerability_analyzer.py', reloading
+2025-03-18 17:15:37,399 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:15:38,460 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:15:38,472 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:15:41,379 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:15:41] "GET / HTTP/1.1" 200 -
+2025-03-18 17:15:47,660 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:15:47,660 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:15:47,675 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/test_vulnerability_analyzer.py', reloading
+2025-03-18 17:15:47,866 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:15:48,746 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:15:48,756 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:15:48,803 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:15:48,803 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:15:48,810 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/test_vulnerability_analyzer.py', reloading
+2025-03-18 17:15:48,947 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:15:49,786 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:15:49,794 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:28:16,350 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:28:16,351 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:28:16,643 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/test_vulnerability_analyzer.py', reloading
+2025-03-18 17:28:16,895 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:28:17,819 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:28:17,829 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:28:17,871 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:28:17,871 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:28:17,879 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/test_vulnerability_analyzer.py', reloading
+2025-03-18 17:28:18,009 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:28:18,768 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:28:18,776 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:28:21,887 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:28:21,888 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:28:21,892 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/test_vulnerability_analyzer.py', reloading
+2025-03-18 17:28:22,052 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:28:22,823 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:28:22,832 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:28:22,879 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:28:22,879 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:28:22,887 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/test_vulnerability_analyzer.py', reloading
+2025-03-18 17:28:23,040 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:28:23,919 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:28:24,028 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:28:56,262 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:28:56] "GET / HTTP/1.1" 200 -
+2025-03-18 17:28:58,209 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:28:58] "GET / HTTP/1.1" 200 -
+2025-03-18 17:29:05,282 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:29:05] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-18 17:29:05,286 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:29:05] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-18 17:29:47,619 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 17:29:47,800 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:29:48,755 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:29:48,766 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:29:51,968 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 17:29:52,466 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:29:53,263 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:29:53,271 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:30:03,135 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:30:03] "GET / HTTP/1.1" 200 -
+2025-03-18 17:30:07,040 [ERROR] secure_vigil: Not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-18 17:30:07,047 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:30:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-18 17:30:12,874 [INFO] secure_vigil: Starting file upload process
+2025-03-18 17:30:12,882 [INFO] secure_vigil: File saved successfully: uploads/test_vulnerability_analyzer.py
+2025-03-18 17:30:12,925 [INFO] secure_vigil: Found 4 vulnerabilities
+2025-03-18 17:30:12,927 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:30:12,927 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:30:13,666 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/test_vulnerability_analyzer.py', reloading
+2025-03-18 17:30:13,832 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:30:15,127 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:30:15,176 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:30:15,197 [INFO] secure_vigil: Starting file upload process
+2025-03-18 17:30:15,199 [INFO] secure_vigil: File saved successfully: uploads/test_vulnerability_analyzer.py
+2025-03-18 17:30:15,246 [INFO] secure_vigil: Found 4 vulnerabilities
+2025-03-18 17:30:15,246 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:30:15,246 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:30:15,259 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/test_vulnerability_analyzer.py', reloading
+2025-03-18 17:30:15,441 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:30:16,417 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:30:16,424 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:30:48,987 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 17:30:49,183 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:30:50,187 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:30:50,197 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:30:52,239 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 17:30:52,400 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:30:53,249 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:30:53,256 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:31:51,996 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:31:51] "GET / HTTP/1.1" 200 -
+2025-03-18 17:32:01,505 [INFO] secure_vigil: Starting file upload process
+2025-03-18 17:32:01,508 [INFO] secure_vigil: File saved successfully: uploads/upload_1742299321.py
+2025-03-18 17:32:01,508 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-18 17:32:01,548 [INFO] secure_vigil: Found 4 vulnerabilities
+2025-03-18 17:32:01,552 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:32:01,552 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:32:11,126 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742299321.py
+2025-03-18 17:32:11,126 [INFO] secure_vigil: Analysis results stored in session
+2025-03-18 17:32:11,130 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:32:11] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-18 17:32:11,153 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:32:11] "GET /result?file_path=uploads/upload_1742299321.py HTTP/1.1" 200 -
+2025-03-18 17:32:11,170 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:32:11] "GET /result?file_path=uploads/upload_1742299321.py HTTP/1.1" 200 -
+2025-03-18 17:32:11,787 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/upload_1742299321.py', reloading
+2025-03-18 17:32:11,941 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:32:12,887 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:32:12,899 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:32:17,223 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-18 17:32:17,223 [WARNING] secure_vigil: Failed to read file with encoding: utf-8
+2025-03-18 17:32:17,224 [INFO] secure_vigil: Successfully read file with encoding: latin-1
+2025-03-18 17:32:17,224 [INFO] secure_vigil: Original code length: 5741
+2025-03-18 17:32:17,225 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-18 17:32:17,225 [INFO] secure_vigil: Number of vulnerabilities found: 4
+2025-03-18 17:32:17,225 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:32:29,479 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:32:29,481 [INFO] secure_vigil: Generated mitigated code length: 1267
+2025-03-18 17:32:29,500 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:32:29] "GET /compare/uploads/upload_1742299321.py HTTP/1.1" 200 -
+2025-03-18 17:34:54,356 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 17:34:54,605 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:34:55,531 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:34:55,540 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:34:59,650 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 17:34:59,803 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:35:00,547 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:35:00,554 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:41:40,381 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-18 17:41:40,383 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-18 17:41:40,387 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-18 17:41:40,387 [INFO] secure_vigil: Original code length: 5741
+2025-03-18 17:41:40,387 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-18 17:41:40,387 [INFO] secure_vigil: Number of vulnerabilities found: 4
+2025-03-18 17:41:40,397 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:41:43,787 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:41:43,788 [ERROR] root: Error generating mitigated code: Failed to generate properly formatted code
+2025-03-18 17:41:43,788 [INFO] secure_vigil: Generated mitigated code length: 118
+2025-03-18 17:41:43,788 [INFO] secure_vigil: Rendering template with: language=python, code_lengths=(orig=5741, mit=118)
+2025-03-18 17:41:43,820 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:41:43] "GET /compare/uploads/upload_1742299321.py HTTP/1.1" 200 -
+2025-03-18 17:41:49,264 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:41:49] "GET /result?file_path=uploads/upload_1742299321.py HTTP/1.1" 200 -
+2025-03-18 17:41:55,031 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-18 17:41:55,033 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-18 17:41:55,033 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-18 17:41:55,033 [INFO] secure_vigil: Original code length: 5741
+2025-03-18 17:41:55,033 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-18 17:41:55,033 [INFO] secure_vigil: Number of vulnerabilities found: 4
+2025-03-18 17:41:55,034 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:42:07,442 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:42:07,443 [ERROR] root: Error generating mitigated code: No response received from the API
+2025-03-18 17:42:07,443 [INFO] secure_vigil: Generated mitigated code length: 109
+2025-03-18 17:42:07,443 [INFO] secure_vigil: Rendering template with: language=python, code_lengths=(orig=5741, mit=109)
+2025-03-18 17:42:07,447 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:42:07] "GET /compare/uploads/upload_1742299321.py HTTP/1.1" 200 -
+2025-03-18 17:46:50,808 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 17:46:51,138 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:46:52,301 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:46:52,314 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:46:56,423 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 17:46:56,719 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:46:58,144 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:46:58,154 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:47:21,404 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:47:21] "GET /result?file_path=uploads/upload_1742299321.py HTTP/1.1" 200 -
+2025-03-18 17:47:22,661 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:47:22] "GET / HTTP/1.1" 200 -
+2025-03-18 17:52:14,041 [INFO] secure_vigil: Starting file upload process
+2025-03-18 17:52:14,051 [INFO] secure_vigil: File saved successfully: uploads/upload_1742300534.php
+2025-03-18 17:52:14,052 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-18 17:52:14,120 [INFO] secure_vigil: Found 25 vulnerabilities
+2025-03-18 17:52:14,140 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:52:14,140 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:52:29,009 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742300534.pdf
+2025-03-18 17:52:29,009 [INFO] secure_vigil: Analysis results stored in session
+2025-03-18 17:52:29,013 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:52:29] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-18 17:52:29,035 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:52:29] "GET /result?file_path=uploads/upload_1742300534.php HTTP/1.1" 200 -
+2025-03-18 17:52:29,103 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:52:29] "GET /result?file_path=uploads/upload_1742300534.php HTTP/1.1" 200 -
+2025-03-18 17:58:38,715 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-18 17:58:38,716 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-18 17:58:38,717 [INFO] secure_vigil: Original code length: 2197
+2025-03-18 17:58:38,717 [INFO] secure_vigil: Detected language: php for extension: .php
+2025-03-18 17:58:38,717 [INFO] secure_vigil: Number of vulnerabilities found: 25
+2025-03-18 17:58:38,718 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:58:46,226 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:58:46,227 [INFO] secure_vigil: Generated mitigated code length: 4823
+2025-03-18 17:58:46,227 [INFO] secure_vigil: Rendering template with: language=php, code_lengths=(orig=2197, mit=4823)
+2025-03-18 17:58:46,248 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:58:46] "GET /compare/uploads/upload_1742300534.php HTTP/1.1" 200 -
+2025-03-18 17:59:22,352 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:59:22] "GET /result?file_path=uploads/upload_1742300534.php HTTP/1.1" 200 -
+2025-03-18 17:59:27,239 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:59:27] "GET / HTTP/1.1" 200 -
+2025-03-18 17:59:37,092 [INFO] secure_vigil: Starting file upload process
+2025-03-18 17:59:37,097 [INFO] secure_vigil: File saved successfully: uploads/upload_1742300977.py
+2025-03-18 17:59:37,097 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-18 17:59:37,109 [INFO] secure_vigil: Found 4 vulnerabilities
+2025-03-18 17:59:37,111 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:59:37,111 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:59:45,124 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742300977.py
+2025-03-18 17:59:45,125 [INFO] secure_vigil: Analysis results stored in session
+2025-03-18 17:59:45,146 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:59:45] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-18 17:59:45,178 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:59:45] "GET /result?file_path=uploads/upload_1742300977.py HTTP/1.1" 200 -
+2025-03-18 17:59:45,242 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:59:45] "GET /result?file_path=uploads/upload_1742300977.py HTTP/1.1" 200 -
+2025-03-18 17:59:45,702 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/upload_1742300977.py', reloading
+2025-03-18 17:59:46,493 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 17:59:47,604 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 17:59:47,615 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 17:59:48,531 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-18 17:59:48,532 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-18 17:59:48,533 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-18 17:59:48,533 [INFO] secure_vigil: Original code length: 5510
+2025-03-18 17:59:48,533 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-18 17:59:48,533 [INFO] secure_vigil: Number of vulnerabilities found: 4
+2025-03-18 17:59:48,533 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 17:59:50,222 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 17:59:50,223 [ERROR] root: Error generating mitigated code: Failed to generate properly formatted code
+2025-03-18 17:59:50,223 [INFO] secure_vigil: Generated mitigated code length: 118
+2025-03-18 17:59:50,223 [INFO] secure_vigil: Rendering template with: language=python, code_lengths=(orig=5510, mit=118)
+2025-03-18 17:59:50,242 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 17:59:50] "GET /compare/uploads/upload_1742300977.py HTTP/1.1" 200 -
+2025-03-18 18:06:38,042 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/tests/vulnerable.py', reloading
+2025-03-18 18:06:38,239 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 18:06:39,224 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 18:06:39,235 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 18:07:36,937 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:07:36] "GET /result?file_path=uploads/upload_1742300977.py HTTP/1.1" 200 -
+2025-03-18 18:07:39,584 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:07:39] "GET / HTTP/1.1" 200 -
+2025-03-18 18:07:48,005 [INFO] secure_vigil: Starting file upload process
+2025-03-18 18:07:48,011 [INFO] secure_vigil: File saved successfully: uploads/upload_1742301468.py
+2025-03-18 18:07:48,011 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-18 18:07:48,047 [INFO] secure_vigil: Found 17 vulnerabilities
+2025-03-18 18:07:48,054 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 18:07:48,054 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 18:08:04,531 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742301468.py
+2025-03-18 18:08:04,536 [INFO] secure_vigil: Analysis results stored in session
+2025-03-18 18:08:04,557 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:08:04] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-18 18:08:04,581 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:08:04] "GET /result?file_path=uploads/upload_1742301468.py HTTP/1.1" 200 -
+2025-03-18 18:08:04,660 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:08:04] "GET /result?file_path=uploads/upload_1742301468.py HTTP/1.1" 200 -
+2025-03-18 18:08:05,626 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/upload_1742301468.py', reloading
+2025-03-18 18:08:06,117 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 18:08:07,573 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 18:08:07,585 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 18:08:48,267 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:08:48] "GET /result?file_path=uploads/upload_1742301468.py HTTP/1.1" 200 -
+2025-03-18 18:12:05,901 [INFO] secure_vigil: Starting file upload process
+2025-03-18 18:12:05,904 [INFO] secure_vigil: File saved successfully: uploads/upload_1742301725.py
+2025-03-18 18:12:05,905 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-18 18:12:05,942 [INFO] secure_vigil: Found 17 vulnerabilities
+2025-03-18 18:12:05,947 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 18:12:05,947 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 18:12:21,867 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742301725.py
+2025-03-18 18:12:21,867 [INFO] secure_vigil: Analysis results stored in session
+2025-03-18 18:12:21,872 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:12:21] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-18 18:12:21,881 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:12:21] "GET /result?file_path=uploads/upload_1742301725.py HTTP/1.1" 200 -
+2025-03-18 18:12:21,907 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:12:21] "GET /result?file_path=uploads/upload_1742301725.py HTTP/1.1" 200 -
+2025-03-18 18:12:21,952 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/upload_1742301725.py', reloading
+2025-03-18 18:12:22,268 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 18:12:23,277 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 18:12:23,287 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 18:12:28,933 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-18 18:12:28,933 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-18 18:12:28,935 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-18 18:12:28,935 [INFO] secure_vigil: Original code length: 11650
+2025-03-18 18:12:28,935 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-18 18:12:28,935 [INFO] secure_vigil: Number of vulnerabilities found: 17
+2025-03-18 18:12:28,936 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 18:12:32,387 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 18:12:32,388 [ERROR] root: Error generating mitigated code: Failed to generate properly formatted code
+2025-03-18 18:12:32,388 [INFO] secure_vigil: Generated mitigated code length: 118
+2025-03-18 18:12:32,388 [INFO] secure_vigil: Rendering template with: language=python, code_lengths=(orig=11650, mit=118)
+2025-03-18 18:12:32,406 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:12:32] "GET /compare/uploads/upload_1742301725.py HTTP/1.1" 200 -
+2025-03-18 18:12:35,939 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:12:35] "GET / HTTP/1.1" 200 -
+2025-03-18 18:12:44,992 [INFO] secure_vigil: Starting file upload process
+2025-03-18 18:12:44,994 [INFO] secure_vigil: File saved successfully: uploads/upload_1742301764.js
+2025-03-18 18:12:44,995 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-18 18:12:45,046 [INFO] secure_vigil: Found 9 vulnerabilities
+2025-03-18 18:12:45,046 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 18:12:45,046 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 18:13:01,053 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742301764.js
+2025-03-18 18:13:01,054 [INFO] secure_vigil: Analysis results stored in session
+2025-03-18 18:13:01,060 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:13:01] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-18 18:13:01,126 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:13:01] "GET /result?file_path=uploads/upload_1742301764.js HTTP/1.1" 200 -
+2025-03-18 18:13:01,226 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:13:01] "GET /result?file_path=uploads/upload_1742301764.js HTTP/1.1" 200 -
+2025-03-18 18:14:53,183 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/vulnerabilities/python/vulnerabilities.py', reloading
+2025-03-18 18:14:53,405 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 18:14:54,659 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 18:14:54,670 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 18:15:00,279 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/vulnerabilities/python/vulnerabilities.py', reloading
+2025-03-18 18:15:00,710 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 18:15:01,593 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 18:15:01,600 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 18:15:54,572 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-18 18:15:54,574 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-18 18:15:54,576 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-18 18:15:54,576 [INFO] secure_vigil: Original code length: 8934
+2025-03-18 18:15:54,576 [INFO] secure_vigil: Detected language: javascript for extension: .js
+2025-03-18 18:15:54,576 [INFO] secure_vigil: Number of vulnerabilities found: 9
+2025-03-18 18:15:54,578 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 18:15:57,731 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 18:15:57,732 [ERROR] root: Error generating mitigated code: Failed to generate properly formatted code
+2025-03-18 18:15:57,732 [INFO] secure_vigil: Generated mitigated code length: 118
+2025-03-18 18:15:57,732 [INFO] secure_vigil: Rendering template with: language=javascript, code_lengths=(orig=8934, mit=118)
+2025-03-18 18:15:57,744 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:15:57] "GET /compare/uploads/upload_1742301764.js HTTP/1.1" 200 -
+2025-03-18 18:16:06,458 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:16:06] "GET /result?file_path=uploads/upload_1742301764.js HTTP/1.1" 200 -
+2025-03-18 18:16:13,972 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:16:13] "GET / HTTP/1.1" 200 -
+2025-03-18 18:16:25,346 [INFO] secure_vigil: Starting file upload process
+2025-03-18 18:16:25,349 [INFO] secure_vigil: File saved successfully: uploads/upload_1742301985.java
+2025-03-18 18:16:25,349 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-18 18:16:25,406 [INFO] secure_vigil: Found 9 vulnerabilities
+2025-03-18 18:16:25,407 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 18:16:25,407 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 18:16:39,160 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742301985.java
+2025-03-18 18:16:39,160 [INFO] secure_vigil: Analysis results stored in session
+2025-03-18 18:16:39,170 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:16:39] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-18 18:16:39,182 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:16:39] "GET /result?file_path=uploads/upload_1742301985.java HTTP/1.1" 200 -
+2025-03-18 18:16:39,219 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:16:39] "GET /result?file_path=uploads/upload_1742301985.java HTTP/1.1" 200 -
+2025-03-18 18:16:51,374 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-18 18:16:51,375 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-18 18:16:51,375 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-18 18:16:51,375 [INFO] secure_vigil: Original code length: 7219
+2025-03-18 18:16:51,375 [INFO] secure_vigil: Detected language: java for extension: .java
+2025-03-18 18:16:51,375 [INFO] secure_vigil: Number of vulnerabilities found: 9
+2025-03-18 18:16:51,376 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 18:16:57,033 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 18:16:57,034 [ERROR] root: Error generating mitigated code: Failed to generate properly formatted code
+2025-03-18 18:16:57,034 [INFO] secure_vigil: Generated mitigated code length: 118
+2025-03-18 18:16:57,034 [INFO] secure_vigil: Rendering template with: language=java, code_lengths=(orig=7219, mit=118)
+2025-03-18 18:16:57,039 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:16:57] "GET /compare/uploads/upload_1742301985.java HTTP/1.1" 200 -
+2025-03-18 18:17:10,058 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:17:10] "GET /result?file_path=uploads/upload_1742301985.java HTTP/1.1" 200 -
+2025-03-18 18:17:12,509 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:17:12] "GET / HTTP/1.1" 200 -
+2025-03-18 18:17:28,318 [INFO] secure_vigil: Starting file upload process
+2025-03-18 18:17:28,321 [INFO] secure_vigil: File saved successfully: uploads/upload_1742302048.c
+2025-03-18 18:17:28,321 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-18 18:17:28,333 [INFO] secure_vigil: Found 13 vulnerabilities
+2025-03-18 18:17:28,334 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 18:17:28,334 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 18:17:46,190 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742302048.c
+2025-03-18 18:17:46,191 [INFO] secure_vigil: Analysis results stored in session
+2025-03-18 18:17:46,195 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:17:46] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-18 18:17:46,204 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:17:46] "GET /result?file_path=uploads/upload_1742302048.c HTTP/1.1" 200 -
+2025-03-18 18:17:46,220 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:17:46] "GET /result?file_path=uploads/upload_1742302048.c HTTP/1.1" 200 -
+2025-03-18 18:17:50,051 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-18 18:17:50,051 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-18 18:17:50,051 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-18 18:17:50,051 [INFO] secure_vigil: Original code length: 12967
+2025-03-18 18:17:50,051 [INFO] secure_vigil: Detected language: c for extension: .c
+2025-03-18 18:17:50,051 [INFO] secure_vigil: Number of vulnerabilities found: 13
+2025-03-18 18:17:50,052 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 18:18:02,559 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 18:18:02,561 [INFO] secure_vigil: Generated mitigated code length: 4281
+2025-03-18 18:18:02,562 [INFO] secure_vigil: Rendering template with: language=c, code_lengths=(orig=12967, mit=4281)
+2025-03-18 18:18:02,567 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:18:02] "GET /compare/uploads/upload_1742302048.c HTTP/1.1" 200 -
+2025-03-18 18:20:02,673 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:20:02] "GET /result?file_path=uploads/upload_1742302048.c HTTP/1.1" 200 -
+2025-03-18 18:20:12,320 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:20:12] "GET / HTTP/1.1" 200 -
+2025-03-18 18:20:20,189 [INFO] secure_vigil: Starting file upload process
+2025-03-18 18:20:20,191 [INFO] secure_vigil: File saved successfully: uploads/upload_1742302220.php
+2025-03-18 18:20:20,191 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-18 18:20:20,197 [INFO] secure_vigil: Found 6 vulnerabilities
+2025-03-18 18:20:20,203 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 18:20:20,203 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 18:20:32,342 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742302220.pdf
+2025-03-18 18:20:32,343 [INFO] secure_vigil: Analysis results stored in session
+2025-03-18 18:20:32,346 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:20:32] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-18 18:20:32,363 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:20:32] "GET /result?file_path=uploads/upload_1742302220.php HTTP/1.1" 200 -
+2025-03-18 18:20:32,390 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:20:32] "GET /result?file_path=uploads/upload_1742302220.php HTTP/1.1" 200 -
+2025-03-18 18:20:35,248 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-18 18:20:35,248 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-18 18:20:35,248 [INFO] secure_vigil: Original code length: 793
+2025-03-18 18:20:35,248 [INFO] secure_vigil: Detected language: php for extension: .php
+2025-03-18 18:20:35,249 [INFO] secure_vigil: Number of vulnerabilities found: 6
+2025-03-18 18:20:35,249 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 18:20:40,123 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 18:20:40,124 [INFO] secure_vigil: Generated mitigated code length: 3161
+2025-03-18 18:20:40,124 [INFO] secure_vigil: Rendering template with: language=php, code_lengths=(orig=793, mit=3161)
+2025-03-18 18:20:40,129 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:20:40] "GET /compare/uploads/upload_1742302220.php HTTP/1.1" 200 -
+2025-03-18 18:22:10,265 [ERROR] secure_vigil: Not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-18 18:22:10,287 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:22:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-18 18:29:20,352 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 18:29:20,575 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 18:29:21,242 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 18:29:21,251 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 18:29:22,273 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 18:29:22,446 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 18:29:22,929 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 18:29:22,933 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 18:31:01,672 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 18:31:01,823 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 18:31:02,489 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 18:31:02,496 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 18:31:07,581 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 18:31:07,725 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 18:31:08,297 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 18:31:08,308 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 18:32:21,920 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:32:21] "GET / HTTP/1.1" 200 -
+2025-03-18 18:32:28,912 [INFO] secure_vigil: Starting file upload process
+2025-03-18 18:32:28,913 [INFO] secure_vigil: File saved successfully: uploads/upload_1742302948.py
+2025-03-18 18:32:28,914 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-18 18:32:28,937 [INFO] secure_vigil: Found 11 vulnerabilities
+2025-03-18 18:32:28,938 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 18:32:28,938 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 18:32:32,028 [ERROR] root: API error: can only concatenate str (not "NoneType") to str
+2025-03-18 18:32:32,041 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742302948.py
+2025-03-18 18:32:32,041 [INFO] secure_vigil: Analysis results stored in session
+2025-03-18 18:32:32,043 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:32:32] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-18 18:32:32,066 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:32:32] "GET /result?file_path=uploads/upload_1742302948.py HTTP/1.1" 200 -
+2025-03-18 18:32:32,085 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:32:32] "GET /result?file_path=uploads/upload_1742302948.py HTTP/1.1" 200 -
+2025-03-18 18:32:32,099 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/upload_1742302948.py', reloading
+2025-03-18 18:32:32,291 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 18:32:32,867 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 18:32:32,875 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 18:32:41,411 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-18 18:32:41,412 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-18 18:32:41,413 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-18 18:32:41,414 [INFO] secure_vigil: Original code length: 4050
+2025-03-18 18:32:41,414 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-18 18:32:41,414 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-18 18:32:41,414 [INFO] secure_vigil: Generated mitigated code length: 4413
+2025-03-18 18:32:41,415 [INFO] secure_vigil: Rendering template with: language=python, code_lengths=(orig=4050, mit=4413)
+2025-03-18 18:32:41,434 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:32:41] "GET /compare/uploads/upload_1742302948.py HTTP/1.1" 200 -
+2025-03-18 18:32:49,034 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:32:49] "GET / HTTP/1.1" 200 -
+2025-03-18 18:32:54,389 [INFO] secure_vigil: Starting file upload process
+2025-03-18 18:32:54,391 [INFO] secure_vigil: File saved successfully: uploads/upload_1742302974.java
+2025-03-18 18:32:54,392 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-18 18:32:54,444 [INFO] secure_vigil: Found 9 vulnerabilities
+2025-03-18 18:32:54,445 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 18:32:54,445 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 18:33:13,518 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742302974.java
+2025-03-18 18:33:13,518 [INFO] secure_vigil: Analysis results stored in session
+2025-03-18 18:33:13,520 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:33:13] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-18 18:33:13,541 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:33:13] "GET /result?file_path=uploads/upload_1742302974.java HTTP/1.1" 200 -
+2025-03-18 18:33:13,558 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:33:13] "GET /result?file_path=uploads/upload_1742302974.java HTTP/1.1" 200 -
+2025-03-18 18:33:20,827 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-18 18:33:20,828 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-18 18:33:20,828 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-18 18:33:20,828 [INFO] secure_vigil: Original code length: 10825
+2025-03-18 18:33:20,828 [INFO] secure_vigil: Detected language: java for extension: .java
+2025-03-18 18:33:20,828 [INFO] secure_vigil: Number of vulnerabilities found: 9
+2025-03-18 18:33:20,829 [INFO] secure_vigil: Generated mitigated code length: 11063
+2025-03-18 18:33:20,829 [INFO] secure_vigil: Rendering template with: language=java, code_lengths=(orig=10825, mit=11063)
+2025-03-18 18:33:20,832 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:33:20] "GET /compare/uploads/upload_1742302974.java HTTP/1.1" 200 -
+2025-03-18 18:34:52,772 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 18:34:52,929 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 18:34:53,595 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 18:34:53,602 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 18:34:56,656 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 18:34:56,807 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 18:34:57,272 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 18:34:57,277 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 18:35:21,629 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/vulnerabilities/java/vulnerabilities.py', reloading
+2025-03-18 18:35:21,758 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 18:35:22,358 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 18:35:22,366 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 18:35:24,399 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/vulnerabilities/java/vulnerabilities.py', reloading
+2025-03-18 18:35:24,542 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 18:35:25,082 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 18:35:25,093 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 18:37:18,297 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:37:18] "GET /result?file_path=uploads/upload_1742302974.java HTTP/1.1" 200 -
+2025-03-18 18:37:19,942 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-18 18:37:19,943 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-18 18:37:19,945 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-18 18:37:19,945 [INFO] secure_vigil: Original code length: 10825
+2025-03-18 18:37:19,945 [INFO] secure_vigil: Detected language: java for extension: .java
+2025-03-18 18:37:19,945 [INFO] secure_vigil: Number of vulnerabilities found: 9
+2025-03-18 18:37:19,946 [INFO] secure_vigil: Generated mitigated code length: 11063
+2025-03-18 18:37:19,946 [INFO] secure_vigil: Rendering template with: language=java, code_lengths=(orig=10825, mit=11063)
+2025-03-18 18:37:19,957 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:37:19] "GET /compare/uploads/upload_1742302974.java HTTP/1.1" 200 -
+2025-03-18 18:37:22,432 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:37:22] "GET / HTTP/1.1" 200 -
+2025-03-18 18:37:26,395 [INFO] secure_vigil: Starting file upload process
+2025-03-18 18:37:26,397 [INFO] secure_vigil: File saved successfully: uploads/upload_1742303246.java
+2025-03-18 18:37:26,397 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-18 18:37:26,443 [INFO] secure_vigil: Found 13 vulnerabilities
+2025-03-18 18:37:26,444 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 18:37:26,444 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 18:37:49,856 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742303246.java
+2025-03-18 18:37:49,857 [INFO] secure_vigil: Analysis results stored in session
+2025-03-18 18:37:49,861 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:37:49] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-18 18:37:49,873 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:37:49] "GET /result?file_path=uploads/upload_1742303246.java HTTP/1.1" 200 -
+2025-03-18 18:37:49,890 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:37:49] "GET /result?file_path=uploads/upload_1742303246.java HTTP/1.1" 200 -
+2025-03-18 18:37:57,036 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-18 18:37:57,037 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-18 18:37:57,037 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-18 18:37:57,037 [INFO] secure_vigil: Original code length: 15104
+2025-03-18 18:37:57,038 [INFO] secure_vigil: Detected language: java for extension: .java
+2025-03-18 18:37:57,038 [INFO] secure_vigil: Number of vulnerabilities found: 13
+2025-03-18 18:37:57,039 [INFO] secure_vigil: Generated mitigated code length: 15495
+2025-03-18 18:37:57,039 [INFO] secure_vigil: Rendering template with: language=java, code_lengths=(orig=15104, mit=15495)
+2025-03-18 18:37:57,043 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 18:37:57] "GET /compare/uploads/upload_1742303246.java HTTP/1.1" 200 -
+2025-03-18 18:38:07,394 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 18:38:07,942 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 18:38:08,607 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 18:38:08,613 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 18:40:24,232 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 18:40:24,405 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 18:40:25,105 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 18:40:25,113 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 18:40:28,164 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-18 18:40:28,298 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 18:40:28,787 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 18:40:28,792 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 19:02:01,232 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 19:02:01] "GET / HTTP/1.1" 200 -
+2025-03-18 19:02:07,211 [INFO] secure_vigil: Starting file upload process
+2025-03-18 19:02:07,213 [INFO] secure_vigil: File saved successfully: uploads/upload_1742304727.py
+2025-03-18 19:02:07,214 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-18 19:02:07,248 [INFO] secure_vigil: Found 11 vulnerabilities
+2025-03-18 19:02:07,251 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 19:02:07,251 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 19:02:20,877 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742304727.py
+2025-03-18 19:02:20,877 [INFO] secure_vigil: Analysis results stored in session
+2025-03-18 19:02:20,880 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 19:02:20] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-18 19:02:20,903 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 19:02:20] "GET /result?file_path=uploads/upload_1742304727.py HTTP/1.1" 200 -
+2025-03-18 19:02:20,922 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 19:02:20] "GET /result?file_path=uploads/upload_1742304727.py HTTP/1.1" 200 -
+2025-03-18 19:02:21,548 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/upload_1742304727.py', reloading
+2025-03-18 19:02:21,685 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 19:02:22,333 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 19:02:22,340 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 19:02:26,565 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-18 19:02:26,565 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-18 19:02:26,571 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-18 19:02:26,572 [INFO] secure_vigil: Original code length: 9137
+2025-03-18 19:02:26,572 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-18 19:02:26,572 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-18 19:02:26,573 [INFO] secure_vigil: Generated mitigated code length: 9500
+2025-03-18 19:02:26,589 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 19:02:26] "GET /compare/uploads/upload_1742304727.py HTTP/1.1" 200 -
+2025-03-18 19:27:19,305 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 19:27:19] "GET / HTTP/1.1" 200 -
+2025-03-18 19:27:27,310 [INFO] secure_vigil: Starting file upload process
+2025-03-18 19:27:27,313 [INFO] secure_vigil: File saved successfully: uploads/upload_1742306247.py
+2025-03-18 19:27:27,314 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-18 19:27:27,356 [INFO] secure_vigil: Found 11 vulnerabilities
+2025-03-18 19:27:27,359 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-18 19:27:27,359 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-18 19:27:43,111 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742306247.py
+2025-03-18 19:27:43,111 [INFO] secure_vigil: Analysis results stored in session
+2025-03-18 19:27:43,113 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 19:27:43] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-18 19:27:43,137 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 19:27:43] "GET /result?file_path=uploads/upload_1742306247.py HTTP/1.1" 200 -
+2025-03-18 19:27:43,144 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/upload_1742306247.py', reloading
+2025-03-18 19:27:43,275 [INFO] werkzeug:  * Restarting with stat
+2025-03-18 19:27:43,897 [WARNING] werkzeug:  * Debugger is active!
+2025-03-18 19:27:43,904 [INFO] werkzeug:  * Debugger PIN: 143-338-642
+2025-03-18 19:27:43,927 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 19:27:43] "GET /result?file_path=uploads/upload_1742306247.py HTTP/1.1" 200 -
+2025-03-18 19:28:19,837 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-18 19:28:19,838 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-18 19:28:19,839 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-18 19:28:19,839 [INFO] secure_vigil: Original code length: 13123
+2025-03-18 19:28:19,839 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-18 19:28:19,839 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-18 19:28:19,840 [INFO] secure_vigil: Generated mitigated code length: 13486
+2025-03-18 19:28:19,857 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 19:28:19] "GET /compare/uploads/upload_1742306247.py HTTP/1.1" 200 -
+2025-03-18 19:28:28,418 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 19:28:28] "GET /result?file_path=uploads/upload_1742306247.py HTTP/1.1" 200 -
+2025-03-18 19:28:49,971 [INFO] werkzeug: 127.0.0.1 - - [18/Mar/2025 19:28:49] "GET /about HTTP/1.1" 200 -
+2025-03-19 08:05:01,721 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 08:05:01,722 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-03-19 08:05:01,724 [INFO] werkzeug:  * Restarting with stat
+2025-03-19 08:05:03,171 [WARNING] werkzeug:  * Debugger is active!
+2025-03-19 08:05:03,191 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-19 08:05:24,226 [INFO] werkzeug: 127.0.0.1 - - [19/Mar/2025 08:05:24] "GET / HTTP/1.1" 200 -
+2025-03-19 08:05:25,281 [ERROR] secure_vigil: Not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-19 08:05:25,287 [INFO] werkzeug: 127.0.0.1 - - [19/Mar/2025 08:05:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-19 08:05:27,232 [INFO] werkzeug: 127.0.0.1 - - [19/Mar/2025 08:05:27] "GET /about HTTP/1.1" 200 -
+2025-03-19 08:05:33,288 [INFO] werkzeug: 127.0.0.1 - - [19/Mar/2025 08:05:33] "GET /about HTTP/1.1" 200 -
+2025-03-19 08:09:36,137 [INFO] werkzeug: 127.0.0.1 - - [19/Mar/2025 08:09:36] "GET / HTTP/1.1" 200 -
+2025-03-24 17:49:28,209 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-24 17:49:28,209 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-03-24 17:49:28,210 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 17:49:28,774 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 17:49:28,783 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 17:49:32,092 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 17:49:32] "GET / HTTP/1.1" 200 -
+2025-03-24 17:49:36,327 [ERROR] secure_vigil: Not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-24 17:49:36,329 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 17:49:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-24 17:50:03,586 [INFO] secure_vigil: Starting file upload process
+2025-03-24 17:50:03,589 [INFO] secure_vigil: File saved successfully: uploads/upload_1742818803.py
+2025-03-24 17:50:03,590 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 17:50:03,627 [INFO] secure_vigil: Found 11 vulnerabilities
+2025-03-24 17:50:03,632 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-24 17:50:03,632 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-24 17:50:23,106 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742818803.py
+2025-03-24 17:50:23,106 [INFO] secure_vigil: Analysis results stored in session
+2025-03-24 17:50:23,110 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 17:50:23] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-24 17:50:23,130 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 17:50:23] "GET /result?file_path=uploads/upload_1742818803.py HTTP/1.1" 200 -
+2025-03-24 17:50:23,150 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 17:50:23] "GET /result?file_path=uploads/upload_1742818803.py HTTP/1.1" 200 -
+2025-03-24 17:50:23,914 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/upload_1742818803.py', reloading
+2025-03-24 17:50:24,074 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 17:50:24,747 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 17:50:24,754 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 17:50:43,189 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 17:50:43,190 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-24 17:50:43,193 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-24 17:50:43,193 [INFO] secure_vigil: Original code length: 9925
+2025-03-24 17:50:43,193 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 17:50:43,193 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-24 17:50:43,194 [INFO] secure_vigil: Generated mitigated code length: 10288
+2025-03-24 17:50:43,215 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 17:50:43] "GET /compare/uploads/upload_1742818803.py HTTP/1.1" 200 -
+2025-03-24 17:50:49,550 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 17:50:49] "GET /result?file_path=uploads/upload_1742818803.py HTTP/1.1" 200 -
+2025-03-24 18:03:26,571 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/security_verification.py', reloading
+2025-03-24 18:03:26,770 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 18:03:27,748 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 18:03:27,759 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 18:04:29,005 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 18:04:29,227 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 18:08:37,901 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-24 18:08:37,901 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-03-24 18:08:37,902 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 18:08:38,696 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 18:08:38,706 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 18:08:43,761 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 18:08:43] "GET / HTTP/1.1" 200 -
+2025-03-24 18:08:45,236 [ERROR] secure_vigil: Not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-24 18:08:45,237 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 18:08:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-24 18:09:02,001 [INFO] secure_vigil: Starting file upload process
+2025-03-24 18:09:02,004 [INFO] secure_vigil: File saved successfully: uploads/upload_1742819942.php
+2025-03-24 18:09:02,005 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 18:09:02,050 [INFO] secure_vigil: Found 61 vulnerabilities
+2025-03-24 18:09:02,051 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-24 18:09:02,051 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-24 18:09:25,352 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742819942.pdf
+2025-03-24 18:09:25,353 [INFO] secure_vigil: Analysis results stored in session
+2025-03-24 18:09:25,357 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 18:09:25] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-24 18:09:25,381 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 18:09:25] "GET /result?file_path=uploads/upload_1742819942.php HTTP/1.1" 200 -
+2025-03-24 18:09:25,400 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 18:09:25] "GET /result?file_path=uploads/upload_1742819942.php HTTP/1.1" 200 -
+2025-03-24 18:09:44,528 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 18:09:44,529 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 18:09:44,529 [INFO] secure_vigil: Original code length: 2640
+2025-03-24 18:09:44,529 [INFO] secure_vigil: Detected language: php for extension: .php
+2025-03-24 18:09:44,529 [INFO] secure_vigil: Number of vulnerabilities found: 61
+2025-03-24 18:09:44,530 [INFO] secure_vigil: Generated mitigated code length: 4782
+2025-03-24 18:09:44,531 [ERROR] security_verification: Error verifying mitigations: 'SecurityVerifier' object has no attribute '_find_vulnerabilities'
+2025-03-24 18:09:44,532 [ERROR] security_verification: Error ensuring code quality: 'SecurityVerifier' object has no attribute '_run_php_quality_checks'
+2025-03-24 18:09:44,533 [ERROR] security_verification: Error ensuring code quality: 'SecurityVerifier' object has no attribute '_run_php_quality_checks'
+2025-03-24 18:09:44,533 [ERROR] security_verification: Error ensuring code quality: 'SecurityVerifier' object has no attribute '_run_php_quality_checks'
+2025-03-24 18:09:44,534 [INFO] secure_vigil: Security verification completed successfully
+2025-03-24 18:09:44,563 [ERROR] secure_vigil: Unexpected error in compare_code: 'dict object' has no attribute 'metrics'
+2025-03-24 18:09:44,565 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 18:09:44] "[32mGET /compare/uploads/upload_1742819942.php HTTP/1.1[0m" 302 -
+2025-03-24 18:09:44,571 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 18:09:44] "GET / HTTP/1.1" 200 -
+2025-03-24 18:09:56,716 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 18:09:56,717 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 18:09:56,717 [INFO] secure_vigil: Original code length: 2640
+2025-03-24 18:09:56,717 [INFO] secure_vigil: Detected language: php for extension: .php
+2025-03-24 18:09:56,717 [INFO] secure_vigil: Number of vulnerabilities found: 61
+2025-03-24 18:09:56,718 [INFO] secure_vigil: Generated mitigated code length: 4782
+2025-03-24 18:09:56,719 [ERROR] security_verification: Error verifying mitigations: 'SecurityVerifier' object has no attribute '_find_vulnerabilities'
+2025-03-24 18:09:56,719 [ERROR] security_verification: Error ensuring code quality: 'SecurityVerifier' object has no attribute '_run_php_quality_checks'
+2025-03-24 18:09:56,719 [ERROR] security_verification: Error ensuring code quality: 'SecurityVerifier' object has no attribute '_run_php_quality_checks'
+2025-03-24 18:09:56,719 [ERROR] security_verification: Error ensuring code quality: 'SecurityVerifier' object has no attribute '_run_php_quality_checks'
+2025-03-24 18:09:56,720 [INFO] secure_vigil: Security verification completed successfully
+2025-03-24 18:09:56,721 [ERROR] secure_vigil: Unexpected error in compare_code: 'dict object' has no attribute 'metrics'
+2025-03-24 18:09:56,723 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 18:09:56] "[32mGET /compare/uploads/upload_1742819942.php HTTP/1.1[0m" 302 -
+2025-03-24 18:09:56,730 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 18:09:56] "GET / HTTP/1.1" 200 -
+2025-03-24 18:10:59,287 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/security_verification.py', reloading
+2025-03-24 18:10:59,499 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 18:11:00,585 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 18:11:00,600 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 18:11:33,840 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/security_verification.py', reloading
+2025-03-24 18:11:34,061 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 18:11:35,144 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 18:11:35,154 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 18:12:18,173 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 18:12:18,370 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 18:12:19,372 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 18:12:19,383 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 18:13:24,609 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 18:13:24,800 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 18:13:25,795 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 18:13:25,809 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 18:15:48,355 [INFO] secure_vigil: Starting file upload process
+2025-03-24 18:15:48,360 [INFO] secure_vigil: File saved successfully: uploads/upload_1742820348.php
+2025-03-24 18:15:48,360 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 18:15:48,398 [INFO] secure_vigil: Found 61 vulnerabilities
+2025-03-24 18:15:48,401 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-24 18:15:48,401 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-24 18:16:13,310 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742820348.pdf
+2025-03-24 18:16:13,310 [INFO] secure_vigil: Analysis results stored in session
+2025-03-24 18:16:13,313 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 18:16:13] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-24 18:16:13,336 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 18:16:13] "GET /result?file_path=uploads/upload_1742820348.php HTTP/1.1" 200 -
+2025-03-24 18:16:13,353 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 18:16:13] "GET /result?file_path=uploads/upload_1742820348.php HTTP/1.1" 200 -
+2025-03-24 18:16:34,060 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 18:16:34,061 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 18:16:34,061 [INFO] secure_vigil: Original code length: 2640
+2025-03-24 18:16:34,061 [INFO] secure_vigil: Detected language: php for extension: .php
+2025-03-24 18:16:34,061 [INFO] secure_vigil: Number of vulnerabilities found: 61
+2025-03-24 18:16:34,062 [INFO] secure_vigil: Generated mitigated code length: 4782
+2025-03-24 18:16:34,341 [ERROR] security_verification: Error calculating security score: maximum recursion depth exceeded
+2025-03-24 18:16:34,608 [ERROR] security_verification: Error ensuring code quality: maximum recursion depth exceeded
+2025-03-24 18:16:34,874 [ERROR] security_verification: Error ensuring code quality: maximum recursion depth exceeded
+2025-03-24 18:16:34,875 [INFO] secure_vigil: Security verification completed successfully
+2025-03-24 18:16:34,890 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 18:16:34] "GET /compare/uploads/upload_1742820348.php HTTP/1.1" 200 -
+2025-03-24 18:17:06,394 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 18:17:06,394 [ERROR] secure_vigil: File not found: uploads/security_reports/security_report_20250324_181634.json
+2025-03-24 18:17:06,397 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 18:17:06] "[32mGET /compare/uploads/security_reports/security_report_20250324_181634.json HTTP/1.1[0m" 302 -
+2025-03-24 18:17:06,408 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 18:17:06] "GET / HTTP/1.1" 200 -
+2025-03-24 18:24:32,736 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 18:24:32,737 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 18:24:32,737 [INFO] secure_vigil: Original code length: 2640
+2025-03-24 18:24:32,738 [INFO] secure_vigil: Detected language: php for extension: .php
+2025-03-24 18:24:32,738 [INFO] secure_vigil: Number of vulnerabilities found: 61
+2025-03-24 18:24:32,738 [INFO] secure_vigil: Generated mitigated code length: 4782
+2025-03-24 18:24:33,093 [ERROR] security_verification: Error calculating security score: maximum recursion depth exceeded
+2025-03-24 18:24:33,376 [ERROR] security_verification: Error ensuring code quality: maximum recursion depth exceeded
+2025-03-24 18:24:33,648 [ERROR] security_verification: Error ensuring code quality: maximum recursion depth exceeded
+2025-03-24 18:24:33,649 [INFO] secure_vigil: Security verification completed successfully
+2025-03-24 18:24:33,667 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 18:24:33] "GET /compare/uploads/upload_1742820348.php HTTP/1.1" 200 -
+2025-03-24 18:25:35,289 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 18:25:35,290 [ERROR] secure_vigil: File not found: uploads/security_reports/security_report_20250324_182433.json
+2025-03-24 18:25:35,294 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 18:25:35] "[32mGET /compare/uploads/security_reports/security_report_20250324_182433.json HTTP/1.1[0m" 302 -
+2025-03-24 18:25:35,299 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 18:25:35] "GET / HTTP/1.1" 200 -
+2025-03-24 18:30:43,717 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 18:30:43,900 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 18:30:44,884 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 18:30:44,893 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 18:30:51,010 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 18:30:51,178 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 18:30:52,179 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 18:30:52,188 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 18:31:13,566 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/security_verification.py', reloading
+2025-03-24 18:31:13,781 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 18:31:14,915 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 18:31:14,923 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 18:31:19,009 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/security_verification.py', reloading
+2025-03-24 18:31:19,173 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:08:11,771 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-24 19:08:11,771 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-03-24 19:08:11,772 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:08:12,993 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:08:13,005 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:08:14,619 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:08:14] "GET / HTTP/1.1" 200 -
+2025-03-24 19:08:33,131 [INFO] secure_vigil: Starting file upload process
+2025-03-24 19:08:33,134 [INFO] secure_vigil: File saved successfully: uploads/upload_1742823513.php
+2025-03-24 19:08:33,134 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 19:08:33,180 [INFO] secure_vigil: Found 61 vulnerabilities
+2025-03-24 19:08:33,181 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-24 19:08:33,181 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-24 19:08:57,369 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742823513.pdf
+2025-03-24 19:08:57,370 [INFO] secure_vigil: Analysis results stored in session
+2025-03-24 19:08:57,373 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:08:57] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-24 19:08:57,404 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:08:57] "GET /result?file_path=uploads/upload_1742823513.php HTTP/1.1" 200 -
+2025-03-24 19:08:57,428 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:08:57] "GET /result?file_path=uploads/upload_1742823513.php HTTP/1.1" 200 -
+2025-03-24 19:13:07,651 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:13:07,653 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 19:13:07,653 [INFO] secure_vigil: Original code length: 2640
+2025-03-24 19:13:07,653 [INFO] secure_vigil: Detected language: php for extension: .php
+2025-03-24 19:13:07,653 [INFO] secure_vigil: Number of vulnerabilities found: 61
+2025-03-24 19:13:07,654 [INFO] secure_vigil: Generated mitigated code length: 4782
+2025-03-24 19:13:07,939 [ERROR] security_verification: Error calculating security score: maximum recursion depth exceeded
+2025-03-24 19:13:08,205 [ERROR] security_verification: Error ensuring code quality: maximum recursion depth exceeded
+2025-03-24 19:13:08,471 [ERROR] security_verification: Error ensuring code quality: maximum recursion depth exceeded
+2025-03-24 19:13:08,473 [INFO] secure_vigil: Security verification completed successfully
+2025-03-24 19:13:08,491 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:13:08] "GET /compare/uploads/upload_1742823513.php HTTP/1.1" 200 -
+2025-03-24 19:13:14,846 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:13:14] "GET /security_report/security_report_upload_1742823513.php_20250324_191308.json HTTP/1.1" 200 -
+2025-03-24 19:27:03,077 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:27:03] "GET / HTTP/1.1" 200 -
+2025-03-24 19:27:11,811 [INFO] secure_vigil: Starting file upload process
+2025-03-24 19:27:11,817 [INFO] secure_vigil: File saved successfully: uploads/upload_1742824631.py
+2025-03-24 19:27:11,818 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 19:27:11,912 [INFO] secure_vigil: Found 3 vulnerabilities
+2025-03-24 19:27:11,916 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-24 19:27:11,916 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-24 19:27:24,601 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742824631.py
+2025-03-24 19:27:24,602 [INFO] secure_vigil: Analysis results stored in session
+2025-03-24 19:27:24,605 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:27:24] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-24 19:27:24,612 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:27:24] "GET /result?file_path=uploads/upload_1742824631.py HTTP/1.1" 200 -
+2025-03-24 19:27:24,628 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:27:24] "GET /result?file_path=uploads/upload_1742824631.py HTTP/1.1" 200 -
+2025-03-24 19:27:24,843 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/upload_1742824631.py', reloading
+2025-03-24 19:27:25,022 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:27:26,023 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:27:26,034 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:28:12,930 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:28:12,931 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-24 19:28:12,933 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-24 19:28:12,933 [INFO] secure_vigil: Original code length: 7133
+2025-03-24 19:28:12,933 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:28:12,933 [INFO] secure_vigil: Number of vulnerabilities found: 3
+2025-03-24 19:28:12,934 [INFO] secure_vigil: Generated mitigated code length: 7133
+2025-03-24 19:28:21,222 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:28:21,680 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:28:23,543 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:28:23,552 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:28:23,567 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:28:23,567 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-24 19:28:23,568 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-24 19:28:23,568 [INFO] secure_vigil: Original code length: 7133
+2025-03-24 19:28:23,568 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:28:23,568 [INFO] secure_vigil: Number of vulnerabilities found: 3
+2025-03-24 19:28:23,568 [INFO] secure_vigil: Generated mitigated code length: 7133
+2025-03-24 19:28:23,582 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:28:23,762 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:28:24,901 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:28:24,912 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:28:24,932 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:28:24,932 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-24 19:28:24,933 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-24 19:28:24,933 [INFO] secure_vigil: Original code length: 7133
+2025-03-24 19:28:24,934 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:28:24,934 [INFO] secure_vigil: Number of vulnerabilities found: 3
+2025-03-24 19:28:24,934 [INFO] secure_vigil: Generated mitigated code length: 7133
+2025-03-24 19:28:24,948 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:28:25,313 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:28:26,332 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:28:26,341 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:28:30,341 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:28:30,342 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-24 19:28:30,343 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-24 19:28:30,343 [INFO] secure_vigil: Original code length: 7133
+2025-03-24 19:28:30,343 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:28:30,343 [INFO] secure_vigil: Number of vulnerabilities found: 3
+2025-03-24 19:28:30,344 [INFO] secure_vigil: Generated mitigated code length: 7133
+2025-03-24 19:28:30,435 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:28:30,610 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:28:31,375 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:28:31,382 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:29:00,662 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:29:00,664 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-24 19:29:00,665 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-24 19:29:00,665 [INFO] secure_vigil: Original code length: 7133
+2025-03-24 19:29:00,665 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:29:00,665 [INFO] secure_vigil: Number of vulnerabilities found: 3
+2025-03-24 19:29:00,665 [INFO] secure_vigil: Generated mitigated code length: 7133
+2025-03-24 19:29:05,102 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:29:05,295 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:29:06,259 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:29:06,267 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:29:15,550 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:29:15,551 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-24 19:29:15,552 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-24 19:29:15,552 [INFO] secure_vigil: Original code length: 7133
+2025-03-24 19:29:15,552 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:29:15,552 [INFO] secure_vigil: Number of vulnerabilities found: 3
+2025-03-24 19:29:15,553 [INFO] secure_vigil: Generated mitigated code length: 7133
+2025-03-24 19:29:19,544 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:29:19,856 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:29:20,905 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:29:20,916 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:29:22,657 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:29:22,657 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-24 19:29:22,658 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-24 19:29:22,658 [INFO] secure_vigil: Original code length: 7133
+2025-03-24 19:29:22,658 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:29:22,658 [INFO] secure_vigil: Number of vulnerabilities found: 3
+2025-03-24 19:29:22,658 [INFO] secure_vigil: Generated mitigated code length: 7133
+2025-03-24 19:29:27,148 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:29:27,338 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:29:28,285 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:29:28,292 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:30:27,376 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:30:27,376 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-24 19:30:27,378 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-24 19:30:27,378 [INFO] secure_vigil: Original code length: 7133
+2025-03-24 19:30:27,378 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:30:27,378 [INFO] secure_vigil: Number of vulnerabilities found: 3
+2025-03-24 19:30:27,378 [INFO] secure_vigil: Generated mitigated code length: 7133
+2025-03-24 19:30:32,408 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:30:32,618 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:30:33,710 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:30:33,723 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:33:57,431 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 19:33:57,610 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:33:58,624 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:33:58,633 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:34:04,767 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 19:34:04,932 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:34:05,863 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:34:05,883 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:34:41,051 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:34:41,052 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-24 19:34:41,055 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-24 19:34:41,055 [INFO] secure_vigil: Original code length: 7133
+2025-03-24 19:34:41,055 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:34:41,055 [INFO] secure_vigil: Number of vulnerabilities found: 3
+2025-03-24 19:34:41,055 [INFO] secure_vigil: Generated mitigated code length: 7133
+2025-03-24 19:34:47,997 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:34:47] "GET / HTTP/1.1" 200 -
+2025-03-24 19:34:55,051 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:34:55,562 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:34:57,324 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:34:57,337 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:34:59,296 [INFO] secure_vigil: Starting file upload process
+2025-03-24 19:34:59,298 [INFO] secure_vigil: File saved successfully: uploads/upload_1742825099.py
+2025-03-24 19:34:59,299 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 19:34:59,341 [INFO] secure_vigil: Found 11 vulnerabilities
+2025-03-24 19:34:59,342 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-24 19:34:59,342 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-24 19:35:12,194 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742825099.py
+2025-03-24 19:35:12,194 [INFO] secure_vigil: Analysis results stored in session
+2025-03-24 19:35:12,196 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:35:12] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-24 19:35:12,221 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:35:12] "GET /result?file_path=uploads/upload_1742825099.py HTTP/1.1" 200 -
+2025-03-24 19:35:12,236 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:35:12] "GET /result?file_path=uploads/upload_1742825099.py HTTP/1.1" 200 -
+2025-03-24 19:35:12,687 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/upload_1742825099.py', reloading
+2025-03-24 19:35:12,857 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:35:13,783 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:35:13,792 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:35:39,495 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:35:39,495 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-24 19:35:39,497 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-24 19:35:39,497 [INFO] secure_vigil: Original code length: 8856
+2025-03-24 19:35:39,497 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:35:39,497 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-24 19:35:39,498 [INFO] secure_vigil: Generated mitigated code length: 9219
+2025-03-24 19:35:50,588 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:35:50,818 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:35:52,021 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:35:52,033 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:35:52,048 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:35:52,049 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-24 19:35:52,050 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-24 19:35:52,050 [INFO] secure_vigil: Original code length: 8856
+2025-03-24 19:35:52,050 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:35:52,050 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-24 19:35:52,050 [INFO] secure_vigil: Generated mitigated code length: 9219
+2025-03-24 19:36:05,333 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:36:05,522 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:36:06,813 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:36:06,821 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:36:06,836 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:36:06,836 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-24 19:36:06,837 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-24 19:36:06,837 [INFO] secure_vigil: Original code length: 8856
+2025-03-24 19:36:06,837 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:36:06,838 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-24 19:36:06,838 [INFO] secure_vigil: Generated mitigated code length: 9219
+2025-03-24 19:36:06,854 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:36:07,010 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:36:07,777 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:36:07,784 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:36:12,036 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:36:12,036 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-24 19:36:12,037 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-24 19:36:12,037 [INFO] secure_vigil: Original code length: 8856
+2025-03-24 19:36:12,037 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:36:12,037 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-24 19:36:12,038 [INFO] secure_vigil: Generated mitigated code length: 9219
+2025-03-24 19:36:29,247 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:36:29,403 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:36:30,285 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:36:30,294 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:36:59,434 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:36:59,435 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-24 19:36:59,436 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-24 19:36:59,437 [INFO] secure_vigil: Original code length: 8856
+2025-03-24 19:36:59,437 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:36:59,437 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-24 19:36:59,438 [INFO] secure_vigil: Generated mitigated code length: 9219
+2025-03-24 19:37:09,598 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-24 19:37:09,598 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-03-24 19:37:09,599 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:37:10,401 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:37:10,410 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:37:12,489 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:37:12] "GET / HTTP/1.1" 200 -
+2025-03-24 19:37:21,861 [INFO] secure_vigil: Starting file upload process
+2025-03-24 19:37:21,863 [INFO] secure_vigil: File saved successfully: uploads/upload_1742825241.py
+2025-03-24 19:37:21,863 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 19:37:21,900 [INFO] secure_vigil: Found 11 vulnerabilities
+2025-03-24 19:37:21,901 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-24 19:37:21,901 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-24 19:37:34,773 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742825241.py
+2025-03-24 19:37:34,774 [INFO] secure_vigil: Analysis results stored in session
+2025-03-24 19:37:34,777 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:37:34] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-24 19:37:34,803 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:37:34] "GET /result?file_path=uploads/upload_1742825241.py HTTP/1.1" 200 -
+2025-03-24 19:37:34,817 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:37:34] "GET /result?file_path=uploads/upload_1742825241.py HTTP/1.1" 200 -
+2025-03-24 19:37:35,029 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/upload_1742825241.py', reloading
+2025-03-24 19:37:35,197 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:37:36,117 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:37:36,131 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:37:58,651 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:37:58,653 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-24 19:37:58,654 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-24 19:37:58,654 [INFO] secure_vigil: Original code length: 9127
+2025-03-24 19:37:58,655 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:37:58,655 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-24 19:37:58,655 [INFO] secure_vigil: Generated mitigated code length: 9490
+2025-03-24 19:38:12,954 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:38:13,133 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:38:14,096 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:38:14,103 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:38:14,118 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:38:14,118 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-24 19:38:14,118 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-24 19:38:14,119 [INFO] secure_vigil: Original code length: 9127
+2025-03-24 19:38:14,119 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:38:14,119 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-24 19:38:14,119 [INFO] secure_vigil: Generated mitigated code length: 9490
+2025-03-24 19:38:14,132 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:38:14,284 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:38:15,215 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:38:15,227 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:38:15,385 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:38:15,385 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-24 19:38:15,386 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-24 19:38:15,386 [INFO] secure_vigil: Original code length: 9127
+2025-03-24 19:38:15,386 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:38:15,386 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-24 19:38:15,386 [INFO] secure_vigil: Generated mitigated code length: 9490
+2025-03-24 19:38:20,330 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:38:20,527 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:38:21,556 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:38:21,570 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:38:25,572 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:38:25,574 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-24 19:38:25,575 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-24 19:38:25,575 [INFO] secure_vigil: Original code length: 9127
+2025-03-24 19:38:25,575 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:38:25,575 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-24 19:38:25,576 [INFO] secure_vigil: Generated mitigated code length: 9490
+2025-03-24 19:38:25,707 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:38:25,869 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:38:26,634 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:38:26,641 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:38:55,904 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:38:55,906 [WARNING] secure_vigil: Failed to read file with utf-8 encoding
+2025-03-24 19:38:55,909 [INFO] secure_vigil: Successfully read file with latin-1 encoding
+2025-03-24 19:38:55,909 [INFO] secure_vigil: Original code length: 9127
+2025-03-24 19:38:55,909 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:38:55,909 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-24 19:38:55,910 [INFO] secure_vigil: Generated mitigated code length: 9490
+2025-03-24 19:39:02,259 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:39:02,525 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:40:50,957 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-24 19:40:50,957 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-03-24 19:40:50,959 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:40:51,750 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:40:51,760 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:40:56,819 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:40:56] "GET / HTTP/1.1" 200 -
+2025-03-24 19:41:02,843 [INFO] secure_vigil: Starting file upload process
+2025-03-24 19:41:02,845 [INFO] secure_vigil: File saved successfully: uploads/upload_1742825462.py
+2025-03-24 19:41:02,846 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 19:41:02,883 [INFO] secure_vigil: Found 11 vulnerabilities
+2025-03-24 19:41:02,885 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-24 19:41:02,885 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-24 19:41:22,663 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742825462.py
+2025-03-24 19:41:22,664 [INFO] secure_vigil: Analysis results stored in session
+2025-03-24 19:41:22,668 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:41:22] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-24 19:41:22,695 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:41:22] "GET /result?file_path=uploads/upload_1742825462.py HTTP/1.1" 200 -
+2025-03-24 19:41:22,712 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 19:41:22] "GET /result?file_path=uploads/upload_1742825462.py HTTP/1.1" 200 -
+2025-03-24 19:41:23,514 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/upload_1742825462.py', reloading
+2025-03-24 19:41:23,705 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:41:25,006 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:41:25,013 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:41:58,771 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:41:58,772 [WARNING] secure_vigil: Failed to decode content with utf-8 encoding
+2025-03-24 19:41:58,772 [INFO] secure_vigil: Successfully decoded content with latin-1 encoding
+2025-03-24 19:41:58,772 [INFO] secure_vigil: Original code length: 10931
+2025-03-24 19:41:58,773 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:41:58,773 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-24 19:41:58,774 [INFO] secure_vigil: Generated mitigated code length: 11294
+2025-03-24 19:41:58,832 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:41:58,997 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:41:59,893 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:41:59,901 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:41:59,915 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:41:59,915 [WARNING] secure_vigil: Failed to decode content with utf-8 encoding
+2025-03-24 19:41:59,916 [INFO] secure_vigil: Successfully decoded content with latin-1 encoding
+2025-03-24 19:41:59,916 [INFO] secure_vigil: Original code length: 10931
+2025-03-24 19:41:59,916 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:41:59,916 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-24 19:41:59,916 [INFO] secure_vigil: Generated mitigated code length: 11294
+2025-03-24 19:41:59,929 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:42:00,085 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:42:01,002 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:42:01,009 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:42:01,119 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:42:01,119 [WARNING] secure_vigil: Failed to decode content with utf-8 encoding
+2025-03-24 19:42:01,119 [INFO] secure_vigil: Successfully decoded content with latin-1 encoding
+2025-03-24 19:42:01,119 [INFO] secure_vigil: Original code length: 10931
+2025-03-24 19:42:01,119 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:42:01,119 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-24 19:42:01,120 [INFO] secure_vigil: Generated mitigated code length: 11294
+2025-03-24 19:42:06,132 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:42:06,306 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:42:07,268 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:42:07,275 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:42:11,330 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:42:11,330 [WARNING] secure_vigil: Failed to decode content with utf-8 encoding
+2025-03-24 19:42:11,330 [INFO] secure_vigil: Successfully decoded content with latin-1 encoding
+2025-03-24 19:42:11,330 [INFO] secure_vigil: Original code length: 10931
+2025-03-24 19:42:11,331 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:42:11,331 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-24 19:42:11,331 [INFO] secure_vigil: Generated mitigated code length: 11294
+2025-03-24 19:42:11,377 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:42:11,547 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:42:12,324 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:42:12,332 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:42:41,603 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 19:42:41,604 [WARNING] secure_vigil: Failed to decode content with utf-8 encoding
+2025-03-24 19:42:41,604 [INFO] secure_vigil: Successfully decoded content with latin-1 encoding
+2025-03-24 19:42:41,604 [INFO] secure_vigil: Original code length: 10931
+2025-03-24 19:42:41,604 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 19:42:41,604 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-24 19:42:41,605 [INFO] secure_vigil: Generated mitigated code length: 11294
+2025-03-24 19:42:47,087 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 19:42:47,291 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:42:48,567 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:42:48,578 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:45:18,556 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 19:45:18,736 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:45:19,750 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:45:19,759 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 19:45:27,930 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 19:45:28,094 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 19:45:29,038 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 19:45:29,047 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 20:40:41,245 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:40:41] "GET / HTTP/1.1" 200 -
+2025-03-24 20:40:48,764 [INFO] secure_vigil: Starting file upload process
+2025-03-24 20:40:48,768 [INFO] secure_vigil: File saved successfully: uploads/upload_1742829048.py
+2025-03-24 20:40:48,768 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 20:40:48,809 [INFO] secure_vigil: Found 11 vulnerabilities
+2025-03-24 20:40:48,821 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-24 20:40:48,821 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-24 20:41:01,136 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742829048.py
+2025-03-24 20:41:01,137 [INFO] secure_vigil: Analysis results stored in session
+2025-03-24 20:41:01,141 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:41:01] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-24 20:41:01,171 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:41:01] "GET /result?file_path=uploads/upload_1742829048.py HTTP/1.1" 200 -
+2025-03-24 20:41:01,188 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:41:01] "GET /result?file_path=uploads/upload_1742829048.py HTTP/1.1" 200 -
+2025-03-24 20:41:01,706 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/uploads/upload_1742829048.py', reloading
+2025-03-24 20:41:01,900 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 20:41:02,936 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 20:41:02,950 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 20:41:12,330 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 20:41:12,330 [WARNING] secure_vigil: Failed to decode content with utf-8 encoding
+2025-03-24 20:41:12,330 [INFO] secure_vigil: Successfully decoded content with latin-1 encoding
+2025-03-24 20:41:12,330 [INFO] secure_vigil: Original code length: 8661
+2025-03-24 20:41:12,330 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 20:41:12,330 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-24 20:41:12,331 [INFO] secure_vigil: Generated mitigated code length: 9024
+2025-03-24 20:41:23,412 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 20:41:23,574 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 20:41:24,503 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 20:41:24,518 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 20:41:24,544 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 20:41:24,545 [WARNING] secure_vigil: Failed to decode content with utf-8 encoding
+2025-03-24 20:41:24,545 [INFO] secure_vigil: Successfully decoded content with latin-1 encoding
+2025-03-24 20:41:24,545 [INFO] secure_vigil: Original code length: 8661
+2025-03-24 20:41:24,545 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 20:41:24,546 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-24 20:41:24,546 [INFO] secure_vigil: Generated mitigated code length: 9024
+2025-03-24 20:41:24,573 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 20:41:24,797 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 20:41:25,787 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 20:41:25,797 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 20:41:25,935 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 20:41:25,935 [WARNING] secure_vigil: Failed to decode content with utf-8 encoding
+2025-03-24 20:41:25,935 [INFO] secure_vigil: Successfully decoded content with latin-1 encoding
+2025-03-24 20:41:25,935 [INFO] secure_vigil: Original code length: 8661
+2025-03-24 20:41:25,935 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 20:41:25,935 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-24 20:41:25,935 [INFO] secure_vigil: Generated mitigated code length: 9024
+2025-03-24 20:41:28,869 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 20:41:29,025 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 20:41:29,843 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 20:41:29,851 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 20:41:34,049 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 20:41:34,049 [WARNING] secure_vigil: Failed to decode content with utf-8 encoding
+2025-03-24 20:41:34,049 [INFO] secure_vigil: Successfully decoded content with latin-1 encoding
+2025-03-24 20:41:34,049 [INFO] secure_vigil: Original code length: 8661
+2025-03-24 20:41:34,049 [INFO] secure_vigil: Detected language: python for extension: .py
+2025-03-24 20:41:34,049 [INFO] secure_vigil: Number of vulnerabilities found: 11
+2025-03-24 20:41:34,050 [INFO] secure_vigil: Generated mitigated code length: 9024
+2025-03-24 20:41:38,038 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 20:41:38,199 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 20:41:39,129 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 20:41:39,138 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 20:41:50,276 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:41:50] "GET / HTTP/1.1" 200 -
+2025-03-24 20:42:03,957 [INFO] secure_vigil: Starting file upload process
+2025-03-24 20:42:03,964 [INFO] secure_vigil: File saved successfully: uploads/upload_1742829123.php
+2025-03-24 20:42:03,965 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 20:42:04,076 [INFO] secure_vigil: Found 32 vulnerabilities
+2025-03-24 20:42:04,077 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-24 20:42:04,077 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-24 20:42:19,984 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742829123.pdf
+2025-03-24 20:42:19,985 [INFO] secure_vigil: Analysis results stored in session
+2025-03-24 20:42:19,988 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:42:19] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-24 20:42:20,010 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:42:20] "GET /result?file_path=uploads/upload_1742829123.php HTTP/1.1" 200 -
+2025-03-24 20:42:20,026 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:42:20] "GET /result?file_path=uploads/upload_1742829123.php HTTP/1.1" 200 -
+2025-03-24 20:42:43,460 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 20:42:43,461 [INFO] secure_vigil: Successfully decoded content with utf-8 encoding
+2025-03-24 20:42:43,461 [INFO] secure_vigil: Original code length: 7588
+2025-03-24 20:42:43,462 [INFO] secure_vigil: Detected language: php for extension: .php
+2025-03-24 20:42:43,462 [INFO] secure_vigil: Number of vulnerabilities found: 32
+2025-03-24 20:42:43,464 [INFO] secure_vigil: Generated mitigated code length: 8710
+2025-03-24 20:42:43,939 [ERROR] security_verification: Error calculating security score: maximum recursion depth exceeded
+2025-03-24 20:42:44,395 [ERROR] security_verification: Error ensuring code quality: maximum recursion depth exceeded
+2025-03-24 20:42:44,851 [ERROR] security_verification: Error ensuring code quality: maximum recursion depth exceeded
+2025-03-24 20:42:44,852 [INFO] secure_vigil: Security verification completed successfully
+2025-03-24 20:42:44,852 [INFO] secure_vigil: Successfully encoded code as JSON
+2025-03-24 20:42:44,865 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:42:44] "GET /compare/uploads/upload_1742829123.php HTTP/1.1" 200 -
+2025-03-24 20:43:01,997 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:43:01] "GET /result?file_path=uploads/upload_1742829123.php HTTP/1.1" 200 -
+2025-03-24 20:43:04,396 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:43:04] "GET / HTTP/1.1" 200 -
+2025-03-24 20:43:12,623 [INFO] secure_vigil: Starting file upload process
+2025-03-24 20:43:12,626 [INFO] secure_vigil: File saved successfully: uploads/upload_1742829192.php
+2025-03-24 20:43:12,626 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 20:43:12,643 [INFO] secure_vigil: Found 61 vulnerabilities
+2025-03-24 20:43:12,644 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-24 20:43:12,644 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-24 20:43:29,978 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742829192.pdf
+2025-03-24 20:43:29,979 [INFO] secure_vigil: Analysis results stored in session
+2025-03-24 20:43:29,981 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:43:29] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-24 20:43:29,990 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:43:29] "GET /result?file_path=uploads/upload_1742829192.php HTTP/1.1" 200 -
+2025-03-24 20:43:30,007 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:43:30] "GET /result?file_path=uploads/upload_1742829192.php HTTP/1.1" 200 -
+2025-03-24 20:43:34,382 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 20:43:34,383 [INFO] secure_vigil: Successfully decoded content with utf-8 encoding
+2025-03-24 20:43:34,383 [INFO] secure_vigil: Original code length: 2640
+2025-03-24 20:43:34,383 [INFO] secure_vigil: Detected language: php for extension: .php
+2025-03-24 20:43:34,383 [INFO] secure_vigil: Number of vulnerabilities found: 61
+2025-03-24 20:43:34,384 [INFO] secure_vigil: Generated mitigated code length: 4782
+2025-03-24 20:43:34,667 [ERROR] security_verification: Error calculating security score: maximum recursion depth exceeded
+2025-03-24 20:43:34,934 [ERROR] security_verification: Error ensuring code quality: maximum recursion depth exceeded
+2025-03-24 20:43:35,199 [ERROR] security_verification: Error ensuring code quality: maximum recursion depth exceeded
+2025-03-24 20:43:35,200 [INFO] secure_vigil: Security verification completed successfully
+2025-03-24 20:43:35,200 [INFO] secure_vigil: Successfully encoded code as JSON
+2025-03-24 20:43:35,202 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:43:35] "GET /compare/uploads/upload_1742829192.php HTTP/1.1" 200 -
+2025-03-24 20:44:25,720 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:44:25] "GET /result?file_path=uploads/upload_1742829192.php HTTP/1.1" 200 -
+2025-03-24 20:44:27,075 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:44:27] "GET / HTTP/1.1" 200 -
+2025-03-24 20:48:18,410 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 20:48:18,599 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 20:48:19,616 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 20:48:19,628 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 20:48:26,796 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 20:48:26,972 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 20:48:27,971 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 20:48:28,005 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 20:52:31,231 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:52:31] "GET / HTTP/1.1" 200 -
+2025-03-24 20:52:55,436 [INFO] secure_vigil: Starting file upload process
+2025-03-24 20:52:55,439 [INFO] secure_vigil: File saved successfully: uploads/upload_1742829775.php
+2025-03-24 20:52:55,439 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 20:52:55,481 [INFO] secure_vigil: Found 61 vulnerabilities
+2025-03-24 20:52:55,482 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-24 20:52:55,482 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-24 20:53:15,107 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742829775.pdf
+2025-03-24 20:53:15,108 [INFO] secure_vigil: Analysis results stored in session
+2025-03-24 20:53:15,110 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:53:15] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-24 20:53:15,131 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:53:15] "GET /result?file_path=uploads/upload_1742829775.php HTTP/1.1" 200 -
+2025-03-24 20:53:15,144 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:53:15] "GET /result?file_path=uploads/upload_1742829775.php HTTP/1.1" 200 -
+2025-03-24 20:58:27,871 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 20:58:27,871 [INFO] secure_vigil: Successfully decoded content with utf-8 encoding
+2025-03-24 20:58:27,871 [INFO] secure_vigil: Original code length: 2640
+2025-03-24 20:58:27,871 [INFO] secure_vigil: Detected language: php for extension: .php
+2025-03-24 20:58:27,871 [INFO] secure_vigil: Number of vulnerabilities found: 61
+2025-03-24 20:58:27,872 [INFO] secure_vigil: Generated mitigated code length: 4782
+2025-03-24 20:58:28,155 [ERROR] security_verification: Error calculating security score: maximum recursion depth exceeded
+2025-03-24 20:58:28,422 [ERROR] security_verification: Error ensuring code quality: maximum recursion depth exceeded
+2025-03-24 20:58:28,689 [ERROR] security_verification: Error ensuring code quality: maximum recursion depth exceeded
+2025-03-24 20:58:28,690 [INFO] secure_vigil: Security verification completed successfully
+2025-03-24 20:58:28,690 [INFO] secure_vigil: Successfully encoded code as JSON
+2025-03-24 20:58:28,705 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:58:28] "GET /compare/uploads/upload_1742829775.php HTTP/1.1" 200 -
+2025-03-24 20:59:53,129 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:59:53] "GET /result?file_path=uploads/upload_1742829775.php HTTP/1.1" 200 -
+2025-03-24 20:59:54,537 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 20:59:54] "GET / HTTP/1.1" 200 -
+2025-03-24 21:00:05,335 [INFO] secure_vigil: Starting file upload process
+2025-03-24 21:00:05,338 [INFO] secure_vigil: File saved successfully: uploads/upload_1742830205.java
+2025-03-24 21:00:05,338 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 21:00:05,362 [INFO] secure_vigil: Found 9 vulnerabilities
+2025-03-24 21:00:05,363 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-24 21:00:05,363 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-24 21:00:23,844 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742830205.java
+2025-03-24 21:00:23,845 [INFO] secure_vigil: Analysis results stored in session
+2025-03-24 21:00:23,848 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 21:00:23] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-24 21:00:23,857 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 21:00:23] "GET /result?file_path=uploads/upload_1742830205.java HTTP/1.1" 200 -
+2025-03-24 21:00:23,879 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 21:00:23] "GET /result?file_path=uploads/upload_1742830205.java HTTP/1.1" 200 -
+2025-03-24 21:00:27,754 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 21:00:27,754 [WARNING] secure_vigil: Failed to decode content with utf-8 encoding: 'utf-8' codec can't decode byte 0x93 in position 10: invalid start byte
+2025-03-24 21:00:27,754 [INFO] secure_vigil: Successfully decoded content with latin-1 encoding
+2025-03-24 21:00:27,754 [INFO] secure_vigil: Original code length: 10139
+2025-03-24 21:00:27,755 [INFO] secure_vigil: Detected language: java for extension: .java
+2025-03-24 21:00:27,755 [INFO] secure_vigil: Number of vulnerabilities found: 9
+2025-03-24 21:00:27,755 [INFO] secure_vigil: Generated mitigated code length: 10377
+2025-03-24 21:00:27,757 [INFO] secure_vigil: Security verification completed successfully
+2025-03-24 21:00:27,757 [INFO] secure_vigil: Successfully encoded code as JSON
+2025-03-24 21:00:27,760 [ERROR] secure_vigil: Unexpected error in compare_code: 'dict object' has no attribute 'security_score'
+Traceback (most recent call last):
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py", line 911, in compare_code
+    return render_template(
+        'compare.html',
+    ...<8 lines>...
+        security_report=report_url
+    )
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/.venv/lib/python3.13/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/.venv/lib/python3.13/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/.venv/lib/python3.13/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/.venv/lib/python3.13/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/templates/compare.html", line 530, in top-level template code
+    <div class="progress-bar {% if quality_metrics.metrics.security_score >= 80 %}bg-success{% elif quality_metrics.metrics.security_score >= 60 %}bg-warning{% else %}bg-danger{% endif %}"
+    
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'security_score'
+2025-03-24 21:00:27,767 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 21:00:27] "[32mGET /compare/uploads/upload_1742830205.java HTTP/1.1[0m" 302 -
+2025-03-24 21:00:27,772 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 21:00:27] "GET / HTTP/1.1" 200 -
+2025-03-24 21:00:39,999 [INFO] secure_vigil: Starting file upload process
+2025-03-24 21:00:40,002 [INFO] secure_vigil: File saved successfully: uploads/upload_1742830240.js
+2025-03-24 21:00:40,003 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 21:00:40,020 [INFO] secure_vigil: Found 9 vulnerabilities
+2025-03-24 21:00:40,020 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-24 21:00:40,020 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-24 21:00:54,341 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742830240.js
+2025-03-24 21:00:54,341 [INFO] secure_vigil: Analysis results stored in session
+2025-03-24 21:00:54,343 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 21:00:54] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-24 21:00:54,351 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 21:00:54] "GET /result?file_path=uploads/upload_1742830240.js HTTP/1.1" 200 -
+2025-03-24 21:00:54,366 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 21:00:54] "GET /result?file_path=uploads/upload_1742830240.js HTTP/1.1" 200 -
+2025-03-24 21:00:56,610 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 21:00:56,610 [WARNING] secure_vigil: Failed to decode content with utf-8 encoding: 'utf-8' codec can't decode byte 0x93 in position 10: invalid start byte
+2025-03-24 21:00:56,610 [INFO] secure_vigil: Successfully decoded content with latin-1 encoding
+2025-03-24 21:00:56,610 [INFO] secure_vigil: Original code length: 9728
+2025-03-24 21:00:56,611 [INFO] secure_vigil: Detected language: javascript for extension: .js
+2025-03-24 21:00:56,611 [INFO] secure_vigil: Number of vulnerabilities found: 9
+2025-03-24 21:00:56,611 [INFO] secure_vigil: Generated mitigated code length: 9988
+2025-03-24 21:00:57,307 [ERROR] security_verification: Error calculating security score: maximum recursion depth exceeded
+2025-03-24 21:00:57,987 [ERROR] security_verification: Error ensuring code quality: maximum recursion depth exceeded
+2025-03-24 21:00:58,665 [ERROR] security_verification: Error ensuring code quality: maximum recursion depth exceeded
+2025-03-24 21:00:58,667 [INFO] secure_vigil: Security verification completed successfully
+2025-03-24 21:00:58,667 [INFO] secure_vigil: Successfully encoded code as JSON
+2025-03-24 21:00:58,669 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 21:00:58] "GET /compare/uploads/upload_1742830240.js HTTP/1.1" 200 -
+2025-03-24 21:01:47,552 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 21:01:47] "GET / HTTP/1.1" 200 -
+2025-03-24 21:01:53,753 [INFO] secure_vigil: Starting file upload process
+2025-03-24 21:01:53,756 [INFO] secure_vigil: File saved successfully: uploads/upload_1742830313.c
+2025-03-24 21:01:53,756 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 21:01:53,770 [INFO] secure_vigil: Found 13 vulnerabilities
+2025-03-24 21:01:53,771 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-24 21:01:53,771 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-24 21:02:16,619 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742830313.c
+2025-03-24 21:02:16,619 [INFO] secure_vigil: Analysis results stored in session
+2025-03-24 21:02:16,621 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 21:02:16] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-24 21:02:16,629 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 21:02:16] "GET /result?file_path=uploads/upload_1742830313.c HTTP/1.1" 200 -
+2025-03-24 21:02:16,645 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 21:02:16] "GET /result?file_path=uploads/upload_1742830313.c HTTP/1.1" 200 -
+2025-03-24 21:02:41,757 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 21:02:41,758 [WARNING] secure_vigil: Failed to decode content with utf-8 encoding: 'utf-8' codec can't decode byte 0x93 in position 10: invalid start byte
+2025-03-24 21:02:41,758 [INFO] secure_vigil: Successfully decoded content with latin-1 encoding
+2025-03-24 21:02:41,758 [INFO] secure_vigil: Original code length: 15348
+2025-03-24 21:02:41,758 [INFO] secure_vigil: Detected language: c for extension: .c
+2025-03-24 21:02:41,759 [INFO] secure_vigil: Number of vulnerabilities found: 13
+2025-03-24 21:02:41,759 [INFO] secure_vigil: Generated mitigated code length: 15376
+2025-03-24 21:02:41,760 [INFO] secure_vigil: Security verification completed successfully
+2025-03-24 21:02:41,760 [INFO] secure_vigil: Successfully encoded code as JSON
+2025-03-24 21:02:41,761 [ERROR] secure_vigil: Unexpected error in compare_code: 'dict object' has no attribute 'security_score'
+Traceback (most recent call last):
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py", line 911, in compare_code
+    return render_template(
+        'compare.html',
+    ...<8 lines>...
+        security_report=report_url
+    )
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/.venv/lib/python3.13/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/.venv/lib/python3.13/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/.venv/lib/python3.13/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/.venv/lib/python3.13/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/templates/compare.html", line 530, in top-level template code
+    <div class="progress-bar {% if quality_metrics.metrics.security_score >= 80 %}bg-success{% elif quality_metrics.metrics.security_score >= 60 %}bg-warning{% else %}bg-danger{% endif %}"
+    
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'security_score'
+2025-03-24 21:02:41,766 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 21:02:41] "[32mGET /compare/uploads/upload_1742830313.c HTTP/1.1[0m" 302 -
+2025-03-24 21:02:41,773 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 21:02:41] "GET / HTTP/1.1" 200 -
+2025-03-24 21:02:47,322 [INFO] werkzeug: 127.0.0.1 - - [24/Mar/2025 21:02:47] "GET / HTTP/1.1" 200 -
+2025-03-24 21:03:52,530 [INFO] secure_vigil: Generating mitigation for python code
+2025-03-24 21:03:52,624 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/temp_code.py', reloading
+2025-03-24 21:03:53,325 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 21:03:54,532 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 21:03:54,549 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 21:05:06,131 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 21:05:06,320 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 21:05:07,326 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 21:05:07,335 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 21:05:16,525 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 21:05:16,720 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 21:05:17,725 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 21:05:17,733 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 21:05:39,268 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 21:05:39,459 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 21:05:40,470 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 21:05:40,483 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 21:06:26,428 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 21:06:26,615 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 21:06:27,639 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 21:06:27,653 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 21:06:29,705 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 21:06:29,870 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 21:06:30,786 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 21:06:30,795 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 21:07:00,567 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 21:07:00,741 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 21:07:01,761 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 21:07:01,775 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 21:07:13,026 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 21:07:13,399 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 21:07:14,493 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 21:07:14,500 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 21:07:35,781 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 21:07:35,975 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 21:07:36,988 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 21:07:36,999 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 21:08:24,901 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 21:08:25,066 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 21:08:26,868 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 21:08:26,880 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 21:09:29,487 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 21:09:29,746 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 21:09:30,812 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 21:09:30,822 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 21:10:18,907 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 21:10:19,127 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 21:10:20,229 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 21:10:20,238 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 21:18:59,714 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 21:18:59,941 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 21:19:01,064 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 21:19:01,073 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 21:19:08,226 [INFO] werkzeug:  * Detected change in '/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py', reloading
+2025-03-24 21:19:08,421 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 22:08:50,150 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.148.125:5000
+2025-03-24 22:08:50,151 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-03-24 22:08:50,152 [INFO] werkzeug:  * Restarting with stat
+2025-03-24 22:08:50,954 [WARNING] werkzeug:  * Debugger is active!
+2025-03-24 22:08:50,966 [INFO] werkzeug:  * Debugger PIN: 913-471-563
+2025-03-24 22:09:06,032 [ERROR] werkzeug: 192.168.148.125 - - [24/Mar/2025 22:09:06] code 400, message Bad request version ("ÎK\x99\x90W\x9bH²¸\x94f'²&e\x18\x18ÖQ\x111Ït\x02X¹ç\x97:<\x18\x02\x13\x1aÜ0\\Ú\x90nf´\x18ûÐ,\x87IÎ\x06\x88\x11Kj»\x99Ø")
+2025-03-24 22:09:06,033 [INFO] werkzeug: 192.168.148.125 - - [24/Mar/2025 22:09:06] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x037¸5çvT\x9fû6pÀ\x14\x19\x9e\x13Õßîn\x1eø\x147\x92sÄVd°Eu\x8b ¸Ã!½\x88Ðsÿn\x12Ã\x0b\x97\\D\x1dñ\x93`\x81\x9aÐoüúó¦6ÞL][\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063JJ\x00\x00\x00+\x00\x07\x06úú\x03\x04\x03\x03\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00-\x00\x02\x01\x01\x003\x04ï\x04íÚÚ\x00\x01\x00\x11ì\x04À\x7fò\x14\x94'ÂQZ\x89¯T¿2\x1b·oÜR¯\x89\x1f»ª\x90÷Â*JØ0ÞöÊÕÐ\x89$K@ü 7c$\x81r\x098J\x8bÈv\x04QÎç§áQTÆÃp-áÌL\\`¼ë¤Þ¬\x8a\x02\x09ÎK\x99\x90W\x9bH²¸\x94f'²&e\x18\x18ÖQ\x111Ït\x02X¹ç\x97:<\x18\x02\x13\x1aÜ0\\Ú\x90nf´\x18ûÐ,\x87IÎ\x06\x88\x11Kj»\x99Ø[0m" 400 -
+2025-03-24 22:09:06,039 [ERROR] werkzeug: 192.168.148.125 - - [24/Mar/2025 22:09:06] code 400, message Bad request version ('\x12')
+2025-03-24 22:09:06,039 [INFO] werkzeug: 192.168.148.125 - - [24/Mar/2025 22:09:06] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03®\x83äÞEÕ\x88ÉÌ\x08B\x09º\x01ªÉ®m²Æí*Ðß\x05\x0bÄ\x07Ê\x8eâä \x12[0m" 400 -
+2025-03-24 22:09:07,943 [INFO] werkzeug: 192.168.148.125 - - [24/Mar/2025 22:09:07] "GET / HTTP/1.1" 200 -
+2025-03-24 22:09:09,720 [ERROR] secure_vigil: Not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-24 22:09:09,726 [INFO] werkzeug: 192.168.148.125 - - [24/Mar/2025 22:09:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-24 22:09:35,871 [INFO] secure_vigil: Starting file upload process
+2025-03-24 22:09:35,875 [INFO] secure_vigil: File saved successfully: uploads/upload_1742834375.c
+2025-03-24 22:09:35,876 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 22:09:35,917 [INFO] secure_vigil: Found 13 vulnerabilities
+2025-03-24 22:09:35,922 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-24 22:09:35,923 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-24 22:09:53,811 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742834375.c
+2025-03-24 22:09:53,812 [INFO] secure_vigil: Analysis results stored in session
+2025-03-24 22:09:53,816 [INFO] werkzeug: 192.168.148.125 - - [24/Mar/2025 22:09:53] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-24 22:09:53,845 [INFO] werkzeug: 192.168.148.125 - - [24/Mar/2025 22:09:53] "GET /result?file_path=uploads/upload_1742834375.c HTTP/1.1" 200 -
+2025-03-24 22:09:53,865 [INFO] werkzeug: 192.168.148.125 - - [24/Mar/2025 22:09:53] "GET /result?file_path=uploads/upload_1742834375.c HTTP/1.1" 200 -
+2025-03-24 22:09:58,313 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 22:09:58,315 [WARNING] utils.file_handler: Failed to decode uploads/upload_1742834375.c using utf-8 encoding: 'utf-8' codec can't decode byte 0x93 in position 10: invalid start byte
+2025-03-24 22:09:58,315 [INFO] utils.file_handler: Successfully decoded uploads/upload_1742834375.c using latin-1 encoding
+2025-03-24 22:09:58,316 [INFO] secure_vigil: Original code length: 12523
+2025-03-24 22:09:58,316 [INFO] secure_vigil: Detected language: c for file: uploads/upload_1742834375.c
+2025-03-24 22:09:58,316 [INFO] secure_vigil: Number of vulnerabilities found: 13
+2025-03-24 22:09:58,316 [INFO] secure_vigil: Generated mitigated code length: 12551
+2025-03-24 22:09:58,318 [INFO] secure_vigil: Security verification completed successfully
+2025-03-24 22:09:58,318 [INFO] secure_vigil: Successfully encoded code as JSON
+2025-03-24 22:09:58,340 [ERROR] secure_vigil: Unexpected error in compare_code: 'dict object' has no attribute 'security_score'
+Traceback (most recent call last):
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/app.py", line 870, in compare_code
+    return render_template(
+        'compare.html',
+    ...<8 lines>...
+        security_report=report_url
+    )
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/.venv/lib/python3.13/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/.venv/lib/python3.13/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/.venv/lib/python3.13/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/.venv/lib/python3.13/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/gokkulamoorthy/Downloads/Secure Vigil Project 2/secure_vigil_final/templates/compare.html", line 530, in top-level template code
+    <div class="progress-bar {% if quality_metrics.metrics.security_score >= 80 %}bg-success{% elif quality_metrics.metrics.security_score >= 60 %}bg-warning{% else %}bg-danger{% endif %}"
+    
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'security_score'
+2025-03-24 22:09:58,347 [INFO] werkzeug: 192.168.148.125 - - [24/Mar/2025 22:09:58] "[32mGET /compare/uploads/upload_1742834375.c HTTP/1.1[0m" 302 -
+2025-03-24 22:09:58,353 [INFO] werkzeug: 192.168.148.125 - - [24/Mar/2025 22:09:58] "GET / HTTP/1.1" 200 -
+2025-03-24 22:10:02,532 [INFO] werkzeug: 192.168.148.125 - - [24/Mar/2025 22:10:02] "GET /about HTTP/1.1" 200 -
+2025-03-24 22:10:13,623 [INFO] werkzeug: 192.168.148.125 - - [24/Mar/2025 22:10:13] "GET / HTTP/1.1" 200 -
+2025-03-24 22:18:29,409 [INFO] werkzeug: 192.168.148.125 - - [24/Mar/2025 22:18:29] "GET /about HTTP/1.1" 200 -
+2025-03-24 22:18:35,956 [INFO] werkzeug: 192.168.148.125 - - [24/Mar/2025 22:18:35] "GET / HTTP/1.1" 200 -
+2025-03-24 22:18:46,900 [INFO] secure_vigil: Starting file upload process
+2025-03-24 22:18:46,907 [INFO] secure_vigil: File saved successfully: uploads/upload_1742834926.php
+2025-03-24 22:18:46,908 [INFO] secure_vigil: Successfully read file with utf-8 encoding
+2025-03-24 22:18:46,952 [INFO] secure_vigil: Found 32 vulnerabilities
+2025-03-24 22:18:46,959 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2025-03-24 22:18:46,959 [INFO] google_genai.models: AFC remote call 1 is done.
+2025-03-24 22:19:04,036 [INFO] secure_vigil: Generated PDF report: uploads/upload_1742834926.pdf
+2025-03-24 22:19:04,036 [INFO] secure_vigil: Analysis results stored in session
+2025-03-24 22:19:04,039 [INFO] werkzeug: 192.168.148.125 - - [24/Mar/2025 22:19:04] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-24 22:19:04,075 [INFO] werkzeug: 192.168.148.125 - - [24/Mar/2025 22:19:04] "GET /result?file_path=uploads/upload_1742834926.php HTTP/1.1" 200 -
+2025-03-24 22:19:04,090 [INFO] werkzeug: 192.168.148.125 - - [24/Mar/2025 22:19:04] "GET /result?file_path=uploads/upload_1742834926.php HTTP/1.1" 200 -
+2025-03-24 22:19:11,377 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 22:19:11,378 [INFO] utils.file_handler: Successfully decoded uploads/upload_1742834926.php using utf-8 encoding
+2025-03-24 22:19:11,378 [INFO] secure_vigil: Original code length: 7588
+2025-03-24 22:19:11,378 [INFO] secure_vigil: Detected language: php for file: uploads/upload_1742834926.php
+2025-03-24 22:19:11,379 [INFO] secure_vigil: Number of vulnerabilities found: 32
+2025-03-24 22:19:11,380 [INFO] secure_vigil: Generated mitigated code length: 8710
+2025-03-24 22:19:11,936 [ERROR] security_verification: Error calculating security score: maximum recursion depth exceeded
+2025-03-24 22:19:12,511 [ERROR] security_verification: Error ensuring code quality: maximum recursion depth exceeded
+2025-03-24 22:19:13,047 [ERROR] security_verification: Error ensuring code quality: maximum recursion depth exceeded
+2025-03-24 22:19:13,049 [INFO] secure_vigil: Security verification completed successfully
+2025-03-24 22:19:13,049 [INFO] secure_vigil: Successfully encoded code as JSON
+2025-03-24 22:19:13,052 [INFO] werkzeug: 192.168.148.125 - - [24/Mar/2025 22:19:13] "GET /compare/uploads/upload_1742834926.php HTTP/1.1" 200 -
+2025-03-24 22:20:28,631 [INFO] werkzeug: 192.168.148.199 - - [24/Mar/2025 22:20:28] "GET / HTTP/1.1" 200 -
+2025-03-24 22:20:34,098 [ERROR] secure_vigil: Not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-03-24 22:20:34,099 [INFO] werkzeug: 192.168.148.199 - - [24/Mar/2025 22:20:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-24 22:20:37,107 [INFO] werkzeug: 192.168.148.199 - - [24/Mar/2025 22:20:37] "GET / HTTP/1.1" 200 -
+2025-03-24 22:20:38,942 [INFO] werkzeug: 192.168.148.199 - - [24/Mar/2025 22:20:38] "GET /about HTTP/1.1" 200 -
+2025-03-24 22:20:45,576 [INFO] werkzeug: 192.168.148.199 - - [24/Mar/2025 22:20:45] "GET / HTTP/1.1" 200 -
+2025-03-24 22:22:04,848 [INFO] secure_vigil: Received analysis request for language: php
+2025-03-24 22:22:04,849 [INFO] secure_vigil: Analyzing code for vulnerabilities...
+2025-03-24 22:22:04,852 [INFO] secure_vigil: Found 0 vulnerabilities
+2025-03-24 22:22:04,856 [INFO] secure_vigil: Analysis completed successfully
+2025-03-24 22:22:04,861 [INFO] werkzeug: 192.168.148.199 - - [24/Mar/2025 22:22:04] "POST /analyze HTTP/1.1" 200 -
+2025-03-24 22:22:04,966 [INFO] werkzeug: 192.168.148.199 - - [24/Mar/2025 22:22:04] "GET /result?file_path=uploads/temp_1742835124.php HTTP/1.1" 200 -
+2025-03-24 22:22:18,909 [INFO] secure_vigil: Retrieved analysis results from session: True
+2025-03-24 22:22:18,909 [INFO] utils.file_handler: Successfully decoded uploads/temp_1742835124.php using utf-8 encoding
+2025-03-24 22:22:18,909 [INFO] secure_vigil: Original code length: 145
+2025-03-24 22:22:18,909 [INFO] secure_vigil: Detected language: php for file: uploads/temp_1742835124.php
+2025-03-24 22:22:18,909 [INFO] secure_vigil: Number of vulnerabilities found: 0
+2025-03-24 22:22:18,909 [INFO] secure_vigil: No vulnerabilities found, using placeholder message
+2025-03-24 22:22:18,910 [INFO] secure_vigil: Successfully encoded code as JSON
+2025-03-24 22:22:18,913 [INFO] werkzeug: 192.168.148.199 - - [24/Mar/2025 22:22:18] "GET /compare/uploads/temp_1742835124.php HTTP/1.1" 200 -
+2025-03-24 22:22:25,597 [INFO] werkzeug: 192.168.148.199 - - [24/Mar/2025 22:22:25] "GET /result?file_path=uploads/temp_1742835124.php HTTP/1.1" 200 -
+2025-03-24 22:22:35,870 [INFO] werkzeug: 192.168.148.199 - - [24/Mar/2025 22:22:35] "[32mPOST /send_email_report HTTP/1.1[0m" 302 -
+2025-03-24 22:22:35,975 [INFO] werkzeug: 192.168.148.199 - - [24/Mar/2025 22:22:35] "GET /result?file_path=uploads/temp_1742835124.pdf HTTP/1.1" 200 -
+2025-03-24 22:24:15,223 [INFO] werkzeug: 192.168.148.199 - - [24/Mar/2025 22:24:15] "GET / HTTP/1.1" 200 -
